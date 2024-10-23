@@ -13,7 +13,6 @@ namespace DOMINIO
         public string Apellido { get; set; }
         public int IdUsuario { get; set; }
 
-
     }
 
 
