@@ -13,7 +13,7 @@ namespace DOMINIO
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         public int IdUsuario { get; set; }
-        public List<Mesas> MesasAsignadas { get; set; }
+        ///public List<Mesas> MesasAsignadas { get; set; }
 
 
 

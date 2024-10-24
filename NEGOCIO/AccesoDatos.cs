@@ -19,7 +19,7 @@ namespace NEGOCIO
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=RESTO_RUDO; integrated security=true;");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS01; database=RESTO_RUDO; integrated security=true;");
             comando = new SqlCommand();
         }
 
@@ -28,6 +28,16 @@ namespace NEGOCIO
             comando.CommandType = System.Data.CommandType.Text;
             comando.CommandText = consulta;
         }
+
+        public void setearSp(string sp)
+        {
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            comando.CommandText = sp;
+
+        }
+
+
+
 
         public void setearParametro(string nombre, object valor)
         {

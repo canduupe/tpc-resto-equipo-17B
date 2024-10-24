@@ -16,7 +16,7 @@ namespace tpc_resto_equipo_17B
 
         protected void btnIngreso_Click(object sender, EventArgs e)
         {
-            Response.Redirect("mesas.aspx");
+            Response.Redirect("Articulos.aspx");
         }
     }
 }
