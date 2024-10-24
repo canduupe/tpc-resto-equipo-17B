@@ -12,14 +12,14 @@
                 </div>
                 <div>
                     <asp:Label ID="Label1" runat="server" Text="USUARIO"></asp:Label>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtUsser" class="form-control" runat="server"></asp:TextBox>
                 </div>
                 <div>
                     <asp:Label ID="lblContra" runat="server" Text="CONTRASEÑA"></asp:Label>
-                    <asp:TextBox ID="txtContra" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtContra" class="form-control" runat="server"></asp:TextBox>
                 </div>
                 <div>
-                    <asp:Button ID="Button1" runat="server" OnClick="btnIngreso_Click" Text="Ingresar" />
+                    <asp:Button ID="BtnIngresar" class="btn btn-primary" runat ="server" OnClick="btnIngreso_Click" Text="Ingresar" />
                 </div>
             </div>
             <div class="col-2"></div>
