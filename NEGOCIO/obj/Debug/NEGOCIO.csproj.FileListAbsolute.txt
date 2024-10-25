@@ -7,3 +7,12 @@ C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\NEGOCIO\bin\D
 C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.Up2Date
 C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\DOMINIO.dll
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\DOMINIO.pdb
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.AssemblyReference.cache
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.Up2Date
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.pdb

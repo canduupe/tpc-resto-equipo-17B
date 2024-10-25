@@ -150,3 +150,7 @@ C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\tpc-resto-equ
 C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\NEGOCIO.dll
 C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\DOMINIO.pdb
 C:\Users\joaqu\OneDrive\Escritorio\TpConCande\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\NEGOCIO.pdb
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\DOMINIO.dll
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\NEGOCIO.dll
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\DOMINIO.pdb
+C:\Users\54115\Desktop\tpc\tpc-resto-equipo-17B\tpc-resto-equipo-17B\bin\NEGOCIO.pdb

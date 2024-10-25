@@ -11,16 +11,16 @@ namespace tpc_resto_equipo_17B
 {
 
 
-    public partial class mesas
+    public partial class Gerentes
     {
 
         /// <summary>
-        /// Control lblMesaNro.
+        /// Control lblGerente.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMesaNro;
+        protected global::System.Web.UI.WebControls.Label lblGerente;
     }
 }
