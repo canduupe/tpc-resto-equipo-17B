@@ -2,17 +2,17 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h3>Nombre del resto</h3>
+        <h3>RUDO'S</h3>
         <address>
-            Sucursales<br />
-            Direccion<br />
-            <abbr>Telefono:</abbr>
+            <b> Sucursales: </b> Av Rudo 123, UTN FRGP 7777<br />
+ 
+            <b>Telefono: </b> 
             4890-5433
         </address>
 
         <address>
-            <strong>Pedidos:</strong>   <a href="resto@gmail.com">resto@gmail.com</a><br />
-            <strong>Reservas:</strong> <a href="reservas@gmail.com">reservas@gmail.com</a>
+            <strong>Pedidos:</strong>   <a href="resto@gmail.com">Resto.rudo@gmail.com</a><br />
+            <strong>Reservas:</strong> <a href="reservas.rudo@gmail.com">Reservas.rudo@gmail.com</a>
         </address>
     </main>
 </asp:Content>

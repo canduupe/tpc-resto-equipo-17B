@@ -28,17 +28,23 @@ namespace tpc_resto_equipo_17B
                 if (usuarioNegocio.Login(usuario))
                 {
                     Session.Add("usuario", usuario);
+                    Response.Redirect("Articulos.aspx", false);
+                }
+                else
+                {
+                    Session.Add("ERROR", "Revise que su usuario o contraseña, Si el problema persiste, UD no es USUARIO del Rudo´s");
+                    Response.Redirect("Error.aspx",false);
                 }
 
 
 
-
-            Response.Redirect("Articulos.aspx");
             }
             catch (Exception ex)
             {
 
-                Session.Add("ERROR", ex.ToString());    
+                Session.Add("ERROR", ex.ToString());
+                Response.Redirect("Error.aspx");
+
             }
 
 
