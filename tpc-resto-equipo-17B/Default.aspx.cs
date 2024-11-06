@@ -18,7 +18,51 @@ namespace tpc_resto_equipo_17B
 
         protected void btnIngreso_Click(object sender, EventArgs e)
         {
-            Usuarios usuario;
+            Usuarios usuario = new Usuarios();
+            UsuarioNegocio usuarioNegocio = new UsuarioNegocio();
+
+
+            try
+            {
+                usuario.Usuario = txtUsser.Text;
+                usuario.Contraseña = txtContra.Text;
+
+                if (usuarioNegocio.Login2(usuario))
+                {
+                    Session.Add("Usuario", usuario);
+                    Response.Redirect("Articulos.aspx", false);
+                }
+               
+                else
+                {
+                    Session.Add("ERROR", "Revise que su usuario o contraseña, Si el problema persiste, UD no es USUARIO del Rudo´s");
+                    Response.Redirect("Error.aspx",false);
+                }
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                Session.Add("ERROR", ex.ToString());
+                Response.Redirect("Error.aspx");
+
+            }
+
+
+        }
+    }
+}
+
+
+
+
+
+
+/*Login anterior por Si lo necesito 
+
+Usuarios usuario;
             UsuarioNegocio usuarioNegocio = new UsuarioNegocio();
 
 
@@ -48,6 +92,8 @@ namespace tpc_resto_equipo_17B
             }
 
 
-        }
-    }
-}
+
+*/
+
+
+

@@ -20,6 +20,8 @@ namespace DOMINIO
         public string Contraseña { get; set; }
         public tipoUsuario TipoUsuario { get; set; }
 
+        public Usuarios() { }
+
         public Usuarios(string usuario, string contraseña, bool gerente)
         {
             Usuario = usuario;
