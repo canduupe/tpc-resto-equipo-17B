@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace DOMINIO
 {
-
    public enum tipoUsuario
     {
         GERENTE = 1,
@@ -27,14 +26,6 @@ namespace DOMINIO
             Usuario = usuario;
             Contraseña = contraseña;
             TipoUsuario = gerente ? tipoUsuario.GERENTE : tipoUsuario.MESERO;
-
-
-
         }
-
-
     }
-
-
-
 }

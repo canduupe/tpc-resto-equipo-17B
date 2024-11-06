@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NEGOCIO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,8 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!Helper.SessionActiva(Session["Usuario"]))
+                Response.Redirect("Error.aspx", false);
         }
     }
 }

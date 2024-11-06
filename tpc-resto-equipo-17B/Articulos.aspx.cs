@@ -16,45 +16,13 @@ namespace tpc_resto_equipo_17B
         protected void Page_Load(object sender, EventArgs e)
         {
             List<Articulo> articuloLista;
-
-            if (!Helper.SessionActiva(Session["Usuario"]))
-                Response.Redirect("Error.aspx", false);
-
-            if (Session["usuario"] == null)
-            {
-                Session.Add("Error", "Debes Loguearte para ingresar");
-                Response.Redirect("Default.aspx", false);
-            }
-            else
-            {
+                                 
                 ArticuloNegocio objListar = new ArticuloNegocio();
                 articuloLista= objListar.ListarConSp();
                 dgvCarta.DataSource = articuloLista;
                 dgvCarta.DataBind();
-                
-
-            }
-
-            
-
-
+                  
         }
     }
 }
 
-
-
-/* esto tambien por las dudas, va en el load
-  if (Session["usuario"] == null)
-            {
-                Session.Add("Error", "Debes Loguearte para ingresar");
-                Response.Redirect("Default.aspx", false);
-            }
-            else
-            {
-                ArticuloNegocio objListar = new ArticuloNegocio();
-                dgvCarta.DataSource = objListar.ListarConSp();
-                dgvCarta.DataBind();
-            }
-
-*/

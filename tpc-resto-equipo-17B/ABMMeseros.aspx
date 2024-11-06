@@ -2,7 +2,6 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-
     <div class="col-4 Separacion">  
         <label> <b>Nombre</b> </label>
         <asp:TextBox ID="txtNombre"  Cssclass="form-control"  runat="server"></asp:TextBox>
@@ -15,11 +14,5 @@
         <label> <b>Usuario</b> </label>
         <asp:TextBox ID="txtUsuario" Cssclass="form-control"  runat="server"></asp:TextBox> 
     </div>
-
-
-
-
-
-
 
 </asp:Content>
