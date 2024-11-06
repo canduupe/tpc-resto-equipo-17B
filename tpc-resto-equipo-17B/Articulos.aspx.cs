@@ -21,7 +21,18 @@ namespace tpc_resto_equipo_17B
                 articuloLista= objListar.ListarConSp();
                 dgvCarta.DataSource = articuloLista;
                 dgvCarta.DataBind();
-                  
+
+            if (!Helper.EsGerente(Session["Usuario"]))
+            {
+                AgregarArt.Visible = false;
+                ModificarArt.Visible = false;
+                EliminarArt.Visible = false;
+            }
+        }
+
+        protected void AgregarArt_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgregarArticulo.aspx", false);
         }
     }
 }
