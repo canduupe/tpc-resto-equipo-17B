@@ -15,13 +15,5 @@ namespace DOMINIO
         public decimal Precio  { get; set; }
         public string  Tipo { get; set; }
         public int CantidadDisponible { get; set; }
-
     }
-
-
-
-
-
-
-
 }

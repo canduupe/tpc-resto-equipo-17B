@@ -13,12 +13,10 @@
    <div class="mb-3">
   <label class="form-label">Precio</label>
   <input type="number" class="form-control" id="txtPrecioArt">
-</div>
+</div>             
          <div class="mb-3">
       <label for="disabledSelect" class="form-label">Tipo</label>
-      <select id="tipoArt" class="form-select">
-        <option>Disabled select</option>
-      </select>
+      <asp:DropDownList ID="CBTipoArt" runat="server" CssClass="btn btn-outline-dark dropdown-toggle"> </asp:DropDownList>
     </div>
            <div class="mb-3">
   <label class="form-label">Cantidad Disponible</label>

@@ -1,4 +1,5 @@
 ﻿using NEGOCIO;
+using DOMINIO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,17 @@ namespace tpc_resto_equipo_17B
                 Response.Redirect("Error.aspx", false);
             }
             */
+
+            if (!IsPostBack)
+            {
+                TipoArticuloNegocio negocio = new TipoArticuloNegocio();
+                List<TipoArticulo> lista = negocio.listar();
+
+                CBTipoArt.DataSource = lista;
+                CBTipoArt.DataValueField = "Id";
+                CBTipoArt.DataTextField = "Descripcion";
+                CBTipoArt.DataBind();
+            }
         }
     }
 }

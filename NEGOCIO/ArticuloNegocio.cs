@@ -52,10 +52,6 @@ namespace NEGOCIO
             }
         }
 
-
-
-
-
         public List<Articulo> ListarConSp()
         {
             List<Articulo> lista = new List<Articulo>();
