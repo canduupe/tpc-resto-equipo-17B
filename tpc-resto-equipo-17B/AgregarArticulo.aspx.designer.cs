@@ -11,43 +11,61 @@ namespace tpc_resto_equipo_17B
 {
 
 
-    public partial class Articulos
+    public partial class AgregarArticulo
     {
 
         /// <summary>
-        /// Control dgvCarta.
+        /// Control txtNombreArt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dgvCarta;
+        protected global::System.Web.UI.WebControls.TextBox txtNombreArt;
 
         /// <summary>
-        /// Control AgregarArt.
+        /// Control txtDescripcionArt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AgregarArt;
+        protected global::System.Web.UI.WebControls.TextBox txtDescripcionArt;
 
         /// <summary>
-        /// Control ModificarArt.
+        /// Control txtPrecioArt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ModificarArt;
+        protected global::System.Web.UI.WebControls.TextBox txtPrecioArt;
 
         /// <summary>
-        /// Control EliminarArt.
+        /// Control CBTipoArt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EliminarArt;
+        protected global::System.Web.UI.WebControls.DropDownList CBTipoArt;
+
+        /// <summary>
+        /// Control txtCantidadArt.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtCantidadArt;
+
+        /// <summary>
+        /// Control btnAgregarArt.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAgregarArt;
     }
 }

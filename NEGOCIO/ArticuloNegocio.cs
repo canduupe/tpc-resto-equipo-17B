@@ -19,23 +19,20 @@ namespace NEGOCIO
 
             try
             {
-                //datos.setearConsulta("select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo");
-
-                datos.setearSp("storedCarta");
+                datos.setearConsulta("select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo");
 
                 datos.realizarLectura();
 
                 while (datos.Lector.Read())
                 {
-                    Articulo aux = new Articulo
-                    {
-                        IdArticulo = (int)datos.Lector["IdArticulo"],
-                        Nombre = (string)datos.Lector["Nombre"],
-                        Descripcion = (string)datos.Lector["Descripcion"],
-                        Precio = (decimal)datos.Lector["Precio"],
-                        Tipo = (string)datos.Lector["Tipo"],
-                        CantidadDisponible = (int)datos.Lector["CantidadDisponible"],
-                    };
+                    Articulo aux = new Articulo();
+
+                    aux.IdArticulo = (int)datos.Lector["IdArticulo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Precio = (decimal)datos.Lector["Precio"];
+                    aux.CantidadDisponible = (int)datos.Lector["CantidadDisponible"];                 
+                    aux.Tipo = (int)datos.Lector["Tipo"];
 
                     lista.Add(aux);
                 }
@@ -51,10 +48,6 @@ namespace NEGOCIO
                 datos.cerrarConexion();
             }
         }
-
-
-
-
 
         public List<Articulo> ListarConSp()
         {
@@ -63,8 +56,7 @@ namespace NEGOCIO
 
             try
             {
-                datos.setearConsulta("select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo");
-
+                datos.setearSp("storedCarta");
                 datos.realizarLectura();
 
                 while (datos.Lector.Read())
@@ -75,7 +67,7 @@ namespace NEGOCIO
                         Nombre = (string)datos.Lector["Nombre"],
                         Descripcion = (string)datos.Lector["Descripcion"],
                         Precio = (decimal)datos.Lector["Precio"],
-                        Tipo = (string)datos.Lector["Tipo"],
+                        Tipo = (int)datos.Lector["Tipo"],
                         CantidadDisponible = (int)datos.Lector["CantidadDisponible"],
                     };
 
@@ -92,21 +84,32 @@ namespace NEGOCIO
             {
                 datos.cerrarConexion();
             }
-
-
-
-
         }
 
+        public void agregarSP(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                datos.setearProcedimiento("storedAltaArticulo");
+                datos.setearParametro("@Nombre", nuevo.Nombre);
+                datos.setearParametro("@Descripcion", nuevo.Descripcion);
+                datos.setearParametro("@Precio", nuevo.Precio);
+                datos.setearParametro("@Tipo", nuevo.Tipo);
+                datos.setearParametro("@Cantidad", nuevo.CantidadDisponible);
 
+                datos.realizarAccion();
 
-
-
-
-
-
-
-
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al agregar articulo" + ex.Message);
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
 }
