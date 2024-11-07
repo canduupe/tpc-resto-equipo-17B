@@ -13,9 +13,6 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-
-
             //Modificacion
             if (Request.QueryString["id"] != null && !IsPostBack)
             {
@@ -47,11 +44,6 @@ namespace tpc_resto_equipo_17B
                 
                 nuevo.Nombre = txtNombre.Text;
                 nuevo.Apellido = txtApellido.Text;
-
-                //nuevo.contraseña = new Usuarios();
-                //nuevo.contraseña.Contraseña = txtContraseña.Text;
-                //nuevo.usuario = new Usuarios();
-                //nuevo.usuario.Usuario = txtUsuario.Text;
 
                 Usuarios usuarios = new Usuarios();
                 usuarios.Usuario = txtUsuario.Text; 

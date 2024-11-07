@@ -137,12 +137,6 @@ namespace NEGOCIO
             {
                 datos.setearProcedimiento("sp_ActualizarUsuariosMesero");
 
-                //@NuevoUsuario VARCHAR(20),
-                //@NuevaContraseña VARCHAR(20),
-                //@NuevoTipoUsuario INT,
-                //@IdMesero INT,
-                //@NuevoNombre VARCHAR(50),
-                //@NuevoApellido VARCHAR(50)
                 datos.setearParametro("@IdUsuario", usu.Id);
                 datos.setearParametro("@NuevoUsuario", usu.Usuario);
                 datos.setearParametro("@NuevaContraseña", usu.Contraseña);

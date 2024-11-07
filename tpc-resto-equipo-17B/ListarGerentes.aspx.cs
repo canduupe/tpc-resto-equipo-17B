@@ -24,5 +24,12 @@ namespace tpc_resto_equipo_17B
 
 
         }
+
+        protected void dgvGerentes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string id = dgvGerentes.SelectedDataKey.Value.ToString();
+            Response.Redirect("ABMGerentes.aspx?Id=" + id);
+
+        }
     }
 }

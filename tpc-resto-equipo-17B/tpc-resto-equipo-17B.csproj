@@ -99,6 +99,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABMGerentes.aspx" />
     <Content Include="ABMMeseros.aspx" />
     <Content Include="AgregarArticulo.aspx" />
     <Content Include="Articulos.aspx" />
@@ -191,6 +192,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABMGerentes.aspx.cs">
+      <DependentUpon>ABMGerentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABMGerentes.aspx.designer.cs">
+      <DependentUpon>ABMGerentes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ABMMeseros.aspx.cs">
       <DependentUpon>ABMMeseros.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

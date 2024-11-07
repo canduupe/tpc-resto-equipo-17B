@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-    <asp:GridView runat="server" ID="dgvGerentes" CssClass="table" AutoGenerateColumns="false">  
+    <asp:GridView runat="server" ID="dgvGerentes" CssClass="table" AutoGenerateColumns="false" DataKeyNames="IdGerente" OnSelectedIndexChanged="dgvGerentes_SelectedIndexChanged">  
         <Columns>
             <asp:BoundField headertext="IdGerente" datafield="IdGerente"   />
             <asp:BoundField headertext="Nombre" datafield="Nombre"   />
