@@ -13,10 +13,28 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Helper.EsGerente(Session["Usuario"]))
-            {              
-                Response.Redirect("Error.aspx", false);
+
+
+
+            //Modificacion
+            if (Request.QueryString["id"] != null && !IsPostBack)
+            {
+                MeseroNegocio negocio = new MeseroNegocio();
+                List<Mesero> lista = negocio.listar2(Request.QueryString["id"].ToString());
+                Mesero meseroseleccionado = lista[0];
+
+                UsuarioNegocio usuarioNegocio = new UsuarioNegocio();
+                Usuarios seleccionadoUsuario = new Usuarios();
+                seleccionadoUsuario = usuarioNegocio.ObtenerUsuario(meseroseleccionado.IdUsuario);
+
+                txtNombre.Text = meseroseleccionado.Nombre;
+                txtApellido.Text = meseroseleccionado.Apellido;
+                txtUsuario.Text = seleccionadoUsuario.Usuario;
+                txtContraseña.Text = seleccionadoUsuario.Contraseña;
+
+
             }
+
         }
 
 
@@ -30,13 +48,26 @@ namespace tpc_resto_equipo_17B
                 nuevo.Nombre = txtNombre.Text;
                 nuevo.Apellido = txtApellido.Text;
 
-                nuevo.contraseña = new Usuarios();
-                nuevo.contraseña.Contraseña = txtContraseña.Text;
-                nuevo.usuario = new Usuarios();
-                nuevo.usuario.Usuario = txtUsuario.Text;
+                //nuevo.contraseña = new Usuarios();
+                //nuevo.contraseña.Contraseña = txtContraseña.Text;
+                //nuevo.usuario = new Usuarios();
+                //nuevo.usuario.Usuario = txtUsuario.Text;
+
+                Usuarios usuarios = new Usuarios();
+                usuarios.Usuario = txtUsuario.Text; 
+                usuarios.Contraseña = txtContraseña.Text;
                
-                negocio.AgregarSP(nuevo);
-                
+
+                if(Request.QueryString["id"] != null)
+                {
+                    nuevo.IdMesero = int.Parse(Request.QueryString["id"].ToString());///le cargo el ID
+                    negocio.Modificar(nuevo, usuarios);
+                }
+                else
+                    negocio.AgregarSP(nuevo, usuarios);
+
+
+                Response.Redirect("ListaMeseros.aspx", false);
             }
 
 

@@ -46,9 +46,10 @@ namespace NEGOCIO
                 datos.cerrarConexion();
             }
 
-
-
         }
+
+
+
 
 
 

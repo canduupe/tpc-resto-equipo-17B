@@ -14,8 +14,7 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Helper.EsGerente(Session["Usuario"]))
-            {
+           
                 List<Mesero> lista;
                 MeseroNegocio negocio = new MeseroNegocio();
 
@@ -23,9 +22,16 @@ namespace tpc_resto_equipo_17B
                 dgvMeseros.DataSource = lista;
                 dgvMeseros.DataBind();
 
-            }
+           
 
 
+
+        }
+
+        protected void dgvMeseros_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string id = dgvMeseros.SelectedDataKey.Value.ToString();
+            Response.Redirect("ABMMeseros.aspx?Id=" + id);    
 
         }
     }

@@ -8,6 +8,8 @@ Usuario varchar(20) not null,
 Contraseña varchar(20) not null,
 TipoUsuario int not null
 )
+alter table Usuarios 
+add Activo int not null default 1;
 
 CREATE TABLE Mesero(
 IdMesero int primary key identity (1,1),
@@ -40,7 +42,7 @@ CantidadDisponible int not null
 )
 
 select * from Articulo
-select * from Usuarios
+select Id, Usuario, Contraseña, TipoUsuario from Usuarios
 
 select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo
 
@@ -53,10 +55,10 @@ values ('principal')
 insert into Articulo (Nombre, Descripcion, Precio, Tipo, CantidadDisponible) values ('Ñoquis', 'Exquisita Pasta para los dias 29', 3000, 2, 180)
 insert into Articulo (Nombre, Descripcion, Precio, Tipo, CantidadDisponible) values ('Coca', 'Bebida', 3000, 1,180)
 insert into Articulo (Nombre, Descripcion, Precio, Tipo, CantidadDisponible) values ('Milanesa A la Rudesa', 'Principal', 3000, 1,180)
-
+----------------------------------------------------------------------------------------------
 create procedure storedCarta as
 select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo
-
+----------------------------------------------------------------------------------------------
 exec storedCarta
 
 insert into Usuarios (Usuario, Contraseña, TipoUsuario)
@@ -64,7 +66,7 @@ values ('gerente', 'geren', 1)
 
 insert into Usuarios (Usuario, Contraseña, TipoUsuario)
 values ('mesero', 'mese', 2)
-
+------------------------------------------------------------------------------
 create procedure storedAltaArticulo
 @Nombre varchar(50),
 @Descripcion varchar(50),
@@ -74,7 +76,7 @@ create procedure storedAltaArticulo
 as
 insert into Articulo values (@Nombre, @Descripcion, @Precio, @Tipo, @Cantidad)
 
-
+------------------------------------------------------------------------------
 create procedure spAltaMesero
 @Nombre varchar(50),
 @apellido varchar(50),
@@ -89,7 +91,48 @@ INSERT INTO Usuarios (Usuario, Contraseña, TipoUsuario)
 
 insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
 values (@Nombre, @apellido, @IdUsuario, 1)
+--------..----------------------------------------------------------------------
+
+insert into Gerente (Nombre, Apellido, IdUsuario, Activo)
+values ('Nombre', 'apellido', 1 , 1)
+
+
+select IdGerente, Nombre, Apellido, IdUsuario, Activo from Gerente
+
+
+select M.IdMesero, M.Nombre, M.Apellido, M.IdUsuario, M.Activo, U.Usuario, U.Contraseña from Mesero as M
+inner join Usuarios as U On u.Id = m.IdUsuario
+
+
+create PROCEDURE sp_ActualizarUsuariosMesero
+    @IdUsuario INT,
+    @NuevoUsuario VARCHAR(20),
+    @NuevaContraseña VARCHAR(20),
+    @IdMesero INT,
+    @NuevoNombre VARCHAR(50),
+    @NuevoApellido VARCHAR(50)
+AS
+        UPDATE Usuarios
+        SET 
+            Usuario = @NuevoUsuario,
+            Contraseña = @NuevaContraseña
+        WHERE Id = @IdUsuario;
+
+     
+        UPDATE Mesero
+        SET 
+            Nombre = @NuevoNombre,
+            Apellido = @NuevoApellido
+        WHERE IdMesero = @IdMesero
+
+    exec sp_ActualizarUsuariosMesero 6, 'Hola', 'Chau', 3, 'Joa', 'Pollez' 
 
 
 
-select * from Mesero
+
+
+
+
+
+
+
