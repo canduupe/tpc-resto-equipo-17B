@@ -64,3 +64,11 @@ values ('gerente', 'geren', 1)
 insert into Usuarios (Usuario, Contraseña, TipoUsuario)
 values ('mesero', 'mese', 2)
 
+create procedure storedAltaArticulo
+@Nombre varchar(50),
+@Descripcion varchar(50),
+@Precio Money,
+@Tipo int,
+@Cantidad int
+as
+insert into Articulo values (@Nombre, @Descripcion, @Precio, @Tipo, @Cantidad)

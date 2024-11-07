@@ -18,7 +18,7 @@ namespace tpc_resto_equipo_17B
             List<Articulo> articuloLista;
                                  
                 ArticuloNegocio objListar = new ArticuloNegocio();
-                articuloLista= objListar.ListarConSp();
+                articuloLista= objListar.listar();
                 dgvCarta.DataSource = articuloLista;
                 dgvCarta.DataBind();
 

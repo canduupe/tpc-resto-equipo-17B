@@ -4,15 +4,15 @@
     <form>
   <div class="mb-3">
     <label  class="form-label">Nombre</label>
-    <input type="text" class="form-control" id="txtNombreArt" aria-describedby="emailHelp">
+      <asp:TextBox ID="txtNombreArt" runat="server"></asp:TextBox>
   </div>
   <div class="mb-3">
     <label class="form-label">Descripción</label>
-    <input type="text" class="form-control" id="txtDescripcionArt">
+      <asp:TextBox ID="txtDescripcionArt" runat="server"></asp:TextBox>
   </div>
    <div class="mb-3">
   <label class="form-label">Precio</label>
-  <input type="number" class="form-control" id="txtPrecioArt">
+  <asp:TextBox ID="txtPrecioArt" runat="server"></asp:TextBox>
 </div>             
          <div class="mb-3">
       <label for="disabledSelect" class="form-label">Tipo</label>
@@ -20,10 +20,10 @@
     </div>
            <div class="mb-3">
   <label class="form-label">Cantidad Disponible</label>
-  <input type="number" class="form-control" id="txtCantidadArt">
+  <asp:TextBox type="number" ID="txtCantidadArt" runat="server"></asp:TextBox>
 </div>
-  
-  <button type="submit" class="btn btn-primary">Agregar</button>
+        <asp:Button ID="btnAgregarArt" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarArt_Click" Text="Agregar"/>
+
 </form>
 
 </asp:Content>
