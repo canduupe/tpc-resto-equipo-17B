@@ -15,6 +15,7 @@ namespace DOMINIO
         public Usuarios usuario { get; set; }
         public Usuarios contraseña { get; set; }
         public int IdUsuario { get; set; }
+        public int Activo { get; set; }
         ///public List<Mesas> MesasAsignadas { get; set; }
 
 

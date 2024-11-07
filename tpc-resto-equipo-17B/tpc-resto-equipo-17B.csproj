@@ -126,6 +126,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Gerentes.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="ListaMeseros.aspx" />
+    <Content Include="ListarGerentes.aspx" />
     <Content Include="Meseros.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -242,6 +244,20 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ListaMeseros.aspx.cs">
+      <DependentUpon>ListaMeseros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaMeseros.aspx.designer.cs">
+      <DependentUpon>ListaMeseros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarGerentes.aspx.cs">
+      <DependentUpon>ListarGerentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarGerentes.aspx.designer.cs">
+      <DependentUpon>ListarGerentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Meseros.aspx.cs">
       <DependentUpon>Meseros.aspx</DependentUpon>
