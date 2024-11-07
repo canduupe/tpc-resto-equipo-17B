@@ -25,12 +25,14 @@ namespace tpc_resto_equipo_17B
             try
             {
                 Mesero nuevo = new Mesero();
-                MeseroNegocio negocio = new MeseroNegocio();   
+                MeseroNegocio negocio = new MeseroNegocio(); 
+                
                 nuevo.Nombre = txtNombre.Text;
                 nuevo.Apellido = txtApellido.Text;
 
-                //nuevo.contraseña = new Usuarios();
+                nuevo.contraseña = new Usuarios();
                 nuevo.contraseña.Contraseña = txtContraseña.Text;
+                nuevo.usuario = new Usuarios();
                 nuevo.usuario.Usuario = txtUsuario.Text;
                
                 negocio.AgregarSP(nuevo);

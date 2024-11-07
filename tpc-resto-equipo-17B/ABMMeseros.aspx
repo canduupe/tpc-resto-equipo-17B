@@ -19,8 +19,10 @@
         <asp:TextBox ID="txtContraseña" CssClass="form-control" runat="server"></asp:TextBox>
     </div>
     <div class="col-4 Separacion">   
-        <asp:Button ID="btnAceptar" runat="server" class="btn-check" OnClick="btnAceptar_Click" Text="ACEPTAR" />
-        <asp:Button ID="btnCancelar" runat="server" class="btn-danger" OnClick="btnCancelar_Click" Text="CANCELAR" />
+        <asp:Button ID="btnAceptar" runat="server" Cssclass="btn-secondary" OnClick="btnAceptar_Click" Text="ACEPTAR" />
+        <div>
+            <asp:Button ID="btnCancelar" runat="server" Cssclass="btn-danger" OnClick="btnCancelar_Click" Text="CANCELAR" />
+        </div>
     </div>
 
 </asp:Content>
