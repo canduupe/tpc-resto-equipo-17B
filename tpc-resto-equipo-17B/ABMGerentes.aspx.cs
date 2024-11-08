@@ -11,10 +11,14 @@ namespace tpc_resto_equipo_17B
 {
     public partial class ABMGerentes : System.Web.UI.Page
     {
-
         public bool ConfirmaEliminacion{ get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Helper.EsGerente(Session["Usuario"]))
+            {
+                Response.Redirect("Error.aspx", false);
+            }
+
             ConfirmaEliminacion = false;
             if (Request.QueryString["Id"]!= null && !IsPostBack)
             {
@@ -26,16 +30,12 @@ namespace tpc_resto_equipo_17B
                 Usuarios seleccionadoUsuario = new Usuarios();
                 seleccionadoUsuario = usuarioNegocio.ObtenerUsuario(gerenteSeleccionado.IdUsuario);
 
-
                 txtNombre.Text = gerenteSeleccionado.Nombre;
                 txtApellido.Text = gerenteSeleccionado.Apellido;
                 txtUsuario.Text = seleccionadoUsuario.Usuario;
                 txtContraseña.Text = seleccionadoUsuario.Contraseña;
-
             }
-
         }
-
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {

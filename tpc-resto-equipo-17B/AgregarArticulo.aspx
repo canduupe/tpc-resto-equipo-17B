@@ -23,7 +23,7 @@
   <asp:TextBox type="number" ID="txtCantidadArt" runat="server"></asp:TextBox>
 </div>
         <asp:Button ID="btnAgregarArt" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarArt_Click" Text="Agregar"/>
-
+        <asp:Button ID="btnCancelar" runat="server" class="btn btn-outline-dark" OnClick="btnCancelar_Click" Text="Cancelar"/>
 </form>
 
 </asp:Content>

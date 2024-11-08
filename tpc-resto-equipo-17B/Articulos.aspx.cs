@@ -15,28 +15,26 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            //try
-            //{
-
-            //List<Articulo> articuloLista;
+            try
+            {
+                List<Articulo> articuloLista;
                                  
-            //    ArticuloNegocio objListar = new ArticuloNegocio();
-            //    articuloLista= objListar.listar();
-            //    dgvCarta.DataSource = articuloLista;
-            //    dgvCarta.DataBind();
-            //}
-            //catch (Exception ex)
-            //{
+                ArticuloNegocio objListar = new ArticuloNegocio();
+                articuloLista= objListar.listar();
+                dgvCarta.DataSource = articuloLista;
+                dgvCarta.DataBind();
+            }
+            catch (Exception ex)
+            {
+               throw ex; 
+            }
 
-            //    throw ex; 
-            //}
-
-            //if (!Helper.EsGerente(Session["Usuario"]))
-            //{
-            //    AgregarArt.Visible = false;
-            //    ModificarArt.Visible = false;
-            //    EliminarArt.Visible = false;
-            //}
+            if (!Helper.EsGerente(Session["Usuario"]))
+            {
+                AgregarArt.Visible = false;
+                ModificarArt.Visible = false;
+                EliminarArt.Visible = false;
+            }
         }
 
         protected void AgregarArt_Click(object sender, EventArgs e)

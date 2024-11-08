@@ -15,5 +15,7 @@
         </Columns>
 
     </asp:GridView>
-
+        <div>
+            <asp:Button ID="btnAgregarGerente" runat="server" class="btn btn-outline-dark" Onclick="btnAgregarGerente_Click" Text="Agregar"/>
+        </div>
 </asp:Content>

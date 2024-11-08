@@ -14,11 +14,10 @@
             <asp:CommandField HeaderText="Eliminar" ShowSelectButton="true" SelectText="☠️" />
             <asp:CommandField HeaderText="Modificar" ShowSelectButton="true" SelectText="📎" />
         </Columns>
+            </asp:GridView>
 
-    </asp:GridView>
-
-
-
-
-
+       <div>
+    <asp:Button ID="btnAgregarMesero" runat="server" class="btn btn-outline-dark" Onclick="btnAgregarMesero_Click" Text="Agregar"/>
+        </div>
 </asp:Content>
+

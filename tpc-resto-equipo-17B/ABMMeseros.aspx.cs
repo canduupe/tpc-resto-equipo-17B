@@ -14,6 +14,11 @@ namespace tpc_resto_equipo_17B
         public bool ConfirmarEliminacion { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Helper.EsGerente(Session["Usuario"]))
+            {
+                Response.Redirect("Error.aspx", false);
+            }
+
             ConfirmarEliminacion = false;
             //Modificacion
             if (Request.QueryString["id"] != null && !IsPostBack)
@@ -30,12 +35,8 @@ namespace tpc_resto_equipo_17B
                 txtApellido.Text = meseroseleccionado.Apellido;
                 txtUsuario.Text = seleccionadoUsuario.Usuario;
                 txtContraseña.Text = seleccionadoUsuario.Contraseña;
-
-
             }
-
         }
-
 
         protected void btnAceptar_Click(object sender, EventArgs e)
         {
@@ -64,17 +65,11 @@ namespace tpc_resto_equipo_17B
                 Response.Redirect("ListaMeseros.aspx", false);
             }
 
-
             catch (Exception ex)
             {
-                Session.Add("ERROR", ex);
-                
+                Session.Add("ERROR", ex);               
             }
-
-
         }
-
-
 
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
@@ -107,12 +102,8 @@ namespace tpc_resto_equipo_17B
             }
             catch (Exception ex)
             {
-
                 Session.Add("ERROR", ex.ToString());
             }
-
-
-
         }
     }
 

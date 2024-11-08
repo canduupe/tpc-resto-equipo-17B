@@ -13,13 +13,11 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*
             if (!Helper.EsGerente(Session["Usuario"]))
             {
                 Response.Redirect("Error.aspx", false);
             }
-            */
-
+            
             try
             {
                 if (!IsPostBack)
@@ -59,6 +57,11 @@ namespace tpc_resto_equipo_17B
             {
                 Response.Redirect("Error.aspx", false);
             }
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Articulos.aspx", false);
         }
     }
 }

@@ -14,6 +14,16 @@ namespace tpc_resto_equipo_17B
         {
             if (!Helper.SessionActiva(Session["Usuario"]))
                 Response.Redirect("Error.aspx", false);
+
+            if (!Helper.EsGerente(Session["Usuario"]))
+            {
+                btnListar.Visible = false;
+            }
+        }
+
+        protected void btnListar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ListaMeseros.aspx", false);
         }
     }
 }

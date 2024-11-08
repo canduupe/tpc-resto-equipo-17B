@@ -4,26 +4,15 @@
     <h1 class="text-center">CARTA   </h1>
 
 
-    <asp:GridView ID="dgvCarta" runat="server" CssClass="table" AutoGenerateColumns="false">
-        <Columns>
-            <asp:BoundField HeaderText="IdGerente" DataField="IdGerente" />
-            <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
-            <asp:BoundField HeaderText="Apellido" DataField="Apellido" />
-            <asp:BoundField HeaderText="IdUsuario" DataField="IdUsuario" />
-            <asp:BoundField HeaderText="Activo" DataField="Activo" />
-
-            <asp:CommandField HeaderText="Eliminar" ShowSelectButton="true" SelectText="☠️" />
-            <asp:CommandField HeaderText="Modificar" ShowSelectButton="true" SelectText="📎" />
-        </Columns>
-
-
+    <asp:GridView ID="dgvCarta" runat="server" CssClass="table">
+      
 
     </asp:GridView>
 
     <div>
-        <asp:Button ID="AgregarArt" runat="server" OnClick="AgregarArt_Click" Text="Agregar" />
-        <asp:Button ID="ModificarArt" runat="server" Text="Modificar" />
-        <asp:Button ID="EliminarArt" runat="server" Text="Eliminar" />
+        <asp:Button ID="AgregarArt" runat="server" class="btn btn-outline-dark" OnClick="AgregarArt_Click" Text="Agregar"/> 
+        <asp:Button ID="ModificarArt" runat="server" class="btn btn-outline-dark" Text="Modificar"/>
+        <asp:Button ID="EliminarArt" runat="server" class="btn btn-outline-dark" Text="Eliminar"/>
     </div>
 
 </asp:Content>

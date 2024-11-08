@@ -13,6 +13,11 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Helper.EsGerente(Session["Usuario"]))
+            {
+                Response.Redirect("Error.aspx", false);
+            }
+
             List<Gerente> listagerente;
             GerenteNegocio negocio = new GerenteNegocio();
 
@@ -25,6 +30,11 @@ namespace tpc_resto_equipo_17B
         {
             string id = dgvGerentes.SelectedDataKey.Value.ToString();
             Response.Redirect("ABMGerentes.aspx?Id=" + id);
+        }
+
+        protected void btnAgregarGerente_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ABMGerentes.aspx", false);
         }
     }
 }

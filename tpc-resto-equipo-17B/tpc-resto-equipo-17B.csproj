@@ -125,7 +125,6 @@
     <Content Include="Default.aspx" />
     <Content Include="Error.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="Gerentes.aspx" />
     <Content Include="Global.asax" />
     <Content Include="ListaMeseros.aspx" />
     <Content Include="ListarGerentes.aspx" />
@@ -242,13 +241,6 @@
     </Compile>
     <Compile Include="Error.aspx.designer.cs">
       <DependentUpon>Error.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Gerentes.aspx.cs">
-      <DependentUpon>Gerentes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Gerentes.aspx.designer.cs">
-      <DependentUpon>Gerentes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
