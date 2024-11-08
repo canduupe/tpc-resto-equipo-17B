@@ -20,11 +20,30 @@
 </div>
 <div class="col-4 Separacion">   
     <asp:Button ID="btnAceptar" runat="server" Cssclass="btn btn-secondary" OnClick="btnAceptar_Click" Text="ACEPTAR" />
-    <div>
-        <asp:Button ID="btnCancelar" runat="server" Cssclass="btn btn-danger" OnClick="btnCancelar_Click" Text="CANCELAR" />
+    <div class="col-4 Separacion">
+        <asp:Button ID="btnCancelar" runat="server" Cssclass="btn btn-dark" OnClick="btnCancelar_Click" Text="CANCELAR" />
     </div>
 </div>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
 
+    <div class="row Separacion">   
+        <div class="col-6 Separacion">   
+            <asp:Button ID="btnEliminar" runat="server" Text="ELIMINAR GERENTE" onclick="btnEliminar_Click"  CssClass="btn btn-danger"/>
+        </div>
+
+        <%if (ConfirmaEliminacion) { %> 
+
+            <div class="mb-3 Separacion">
+                <asp:CheckBox text = "Confirmar Eliminacion"  ID="Confirmar"   runat="server"  /> 
+                <asp:Button ID = "btnConfirmaEliminacion" runat="server" Text="ELIMINAR" onclick="btnConfirmaEliminacion_Click" CssClass="btn btn-outline-danger"/>
+            </div>
+
+          <% } %>
+        </ContentTemplate>    
+    </asp:UpdatePanel>
+
+  
 
 
 </asp:Content>

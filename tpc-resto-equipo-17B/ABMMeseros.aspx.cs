@@ -11,8 +11,10 @@ namespace tpc_resto_equipo_17B
 {
     public partial class ABM_Usuarios : System.Web.UI.Page
     {
+        public bool ConfirmarEliminacion { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+            ConfirmarEliminacion = false;
             //Modificacion
             if (Request.QueryString["id"] != null && !IsPostBack)
             {
@@ -77,6 +79,40 @@ namespace tpc_resto_equipo_17B
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
             Response.Redirect("Articulos.aspx", false);
+        }
+
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+            ConfirmarEliminacion = true;
+        }
+        protected void btnConfirmaEliminacion_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ConfirmarEli.Checked)
+                {
+                    MeseroNegocio negocio = new MeseroNegocio();
+                    List<Mesero> meseList = negocio.listar2(Request.QueryString["Id"].ToString());
+                    Mesero Seleccionado = meseList[0];
+
+                    UsuarioNegocio usuarioNegocio = new UsuarioNegocio();
+                    Usuarios seleccionadoUsuario = new Usuarios();
+                    seleccionadoUsuario = usuarioNegocio.ObtenerUsuario(Seleccionado.IdUsuario);
+
+                    negocio.Eliminar(Seleccionado.IdUsuario);
+
+                    Response.Redirect("ListaMeseros.aspx", false);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Session.Add("ERROR", ex.ToString());
+            }
+
+
+
         }
     }
 

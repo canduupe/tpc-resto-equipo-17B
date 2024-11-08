@@ -11,8 +11,11 @@ namespace tpc_resto_equipo_17B
 {
     public partial class ABMGerentes : System.Web.UI.Page
     {
+
+        public bool ConfirmaEliminacion{ get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+            ConfirmaEliminacion = false;
             if (Request.QueryString["Id"]!= null && !IsPostBack)
             {
                 GerenteNegocio negocio = new GerenteNegocio();
@@ -60,7 +63,38 @@ namespace tpc_resto_equipo_17B
         }
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ListaGerentes.aspx", false);
+            Response.Redirect("ListarGerentes.aspx", false);
+        }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+            ConfirmaEliminacion = true;
+        }
+
+        protected void btnConfirmaEliminacion_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (Confirmar.Checked)
+                {
+                    GerenteNegocio negocio = new GerenteNegocio();
+                    List<Gerente> gerentesList = negocio.listar2(Request.QueryString["Id"].ToString());
+                    Gerente gerenteSeleccionado = gerentesList[0];
+
+                    UsuarioNegocio usuarioNegocio = new UsuarioNegocio();
+                    Usuarios seleccionadoUsuario = new Usuarios();
+                    seleccionadoUsuario = usuarioNegocio.ObtenerUsuario(gerenteSeleccionado.IdUsuario);
+
+                    negocio.Eliminar(gerenteSeleccionado.IdUsuario);
+
+                    Response.Redirect("ListarGerentes.aspx", false);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Session.Add("ERROR", ex.ToString());
+            }
         }
     }
     

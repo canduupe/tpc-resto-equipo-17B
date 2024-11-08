@@ -158,7 +158,28 @@ namespace NEGOCIO
 
 
 
+        public void Eliminar(int Id)
+        {
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                datos.setearProcedimiento("spEliminarUsuarioYGerente");
+                datos.setearParametro("@IdUsuario", Id);
+            
+
+                datos.realizarAccion();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally { datos.cerrarConexion(); }
+
+
+        }
 
 
     }
