@@ -14,8 +14,6 @@
             <asp:CommandField  headerText="Modificar" ShowSelectButton="true" selectText="📎"  />       
         </Columns>
 
-
     </asp:GridView>
-
 
 </asp:Content>

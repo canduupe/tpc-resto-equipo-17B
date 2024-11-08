@@ -10,7 +10,6 @@ namespace NEGOCIO
 {
     public class MeseroNegocio
     {
-
         public List<Mesero> listar2(string id = "")
         {
             AccesoDatos datos = new AccesoDatos();
@@ -145,19 +144,15 @@ namespace NEGOCIO
                 datos.setearParametro("@NuevoApellido", mesero.Apellido);
 
                 datos.realizarAccion();
-
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
             finally
             {
                 datos.cerrarConexion(); 
             }
-
-
         }
 
 
