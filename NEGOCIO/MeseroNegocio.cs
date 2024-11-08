@@ -155,7 +155,6 @@ namespace NEGOCIO
                 datos.setearProcedimiento("spEliminarUsuarioYMesero");
                 datos.setearParametro("@IdUsuario", Id);
 
-
                 datos.realizarAccion();
 
             }

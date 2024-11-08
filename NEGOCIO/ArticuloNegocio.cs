@@ -60,7 +60,7 @@ namespace NEGOCIO
                 string consulta = "select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo ";
                 if (Id != "")
                 {
-                    consulta += "and IdArticulo= " + Id;
+                    consulta += "where IdArticulo= " + Id;
                 } 
 
                 datos.setearConsulta(consulta);
@@ -164,7 +164,7 @@ namespace NEGOCIO
             {
                 datos.setearProcedimiento("SpModificarArticulo");
 
-                datos.setearParametro("@Id", nuevo.IdArticulo);
+                datos.setearParametro("@IdArticulo", nuevo.IdArticulo);
                 datos.setearParametro("@Nombre", nuevo.Nombre);
                 datos.setearParametro("@Descripcion", nuevo.Descripcion);
                 datos.setearParametro("@Precio", nuevo.Precio);

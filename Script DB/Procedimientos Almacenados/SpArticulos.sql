@@ -17,7 +17,7 @@ insert into Articulo values (@Nombre, @Descripcion, @Precio, @Tipo, @Cantidad)
 -----------------------------------------------
 
 create procedure SpModificarArticulo
-@Id int,
+@IdArticulo int,
 @Nombre varchar(50),
 @Descripcion varchar(50),
 @Precio money,
@@ -25,7 +25,7 @@ create procedure SpModificarArticulo
 @CantidadDisponible int
 as
 update Articulo set Nombre=@Nombre, Descripcion=@Descripcion, Precio=@Precio, Tipo=@Tipo, CantidadDisponible=@CantidadDisponible 
-where IdArticulo=@Id          
+where IdArticulo=@IdArticulo          
 
 
 -----------------------------------------------

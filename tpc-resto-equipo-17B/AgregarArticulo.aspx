@@ -24,7 +24,6 @@
 </div>
         <asp:Button ID="btnAgregarArt" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarArt_Click" Text="Agregar"/>
         <asp:Button ID="btnCancelar" runat="server" class="btn btn-outline-dark" OnClick="btnCancelar_Click" Text="Cancelar"/>
-</form>
 
      <asp:UpdatePanel ID="UpdatePanel2" runat="server">
  <ContentTemplate>
@@ -36,7 +35,7 @@
     <%if (ConfirmarEliminacionArt) { %> 
 
         <div class="mb-3 Separacion">
-            <asp:CheckBox text = "Confirmar Eliminacion"  ID="ConfirmarEliminaArt"   runat="server"  /> 
+            <asp:CheckBox text = "Confirmar Eliminacion"  ID="ConfirmarEliArt"   runat="server"  /> 
             <asp:Button ID ="btnConfirmaArt" runat="server" Text="ELIMINAR" onclick="btnConfirmaArt_Click" CssClass="btn btn-outline-danger"/>
         </div>
 
@@ -44,4 +43,5 @@
 
          </ContentTemplate>  
      </asp:UpdatePanel>
+        </form>
 </asp:Content>

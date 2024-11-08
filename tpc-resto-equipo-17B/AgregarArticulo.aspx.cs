@@ -12,12 +12,14 @@ namespace tpc_resto_equipo_17B
     public partial class AgregarArticulo : System.Web.UI.Page
     {
         public bool ConfirmarEliminacionArt { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Helper.EsGerente(Session["Usuario"]))
             {
                 Response.Redirect("Error.aspx", false);
             }
+
             ConfirmarEliminacionArt = false;
 
             try
@@ -35,10 +37,10 @@ namespace tpc_resto_equipo_17B
 
                 string Id = Request.QueryString["Id"] != null ? Request.QueryString["Id"].ToString() : "";
                 if (Id != "" && !IsPostBack)
-                {
-                    
+                { 
                     ArticuloNegocio negocio = new ArticuloNegocio();
-                    Articulo selecionado = (negocio.listar2(Id))[0];
+                    List<Articulo> List = negocio.listar2(Request.QueryString["Id"].ToString());
+                    Articulo selecionado = List[0];
 
                     txtNombreArt.Text = selecionado.Nombre;
                     txtDescripcionArt.Text = selecionado.Descripcion;
@@ -65,22 +67,24 @@ namespace tpc_resto_equipo_17B
                 nuevo.Nombre = txtNombreArt.Text;
                 nuevo.Descripcion = txtDescripcionArt.Text;
                 nuevo.Precio = int.Parse(txtPrecioArt.Text);
-                nuevo.CantidadDisponible = int.Parse(txtCantidadArt.Text);
                 nuevo.Tipo = int.Parse(CBTipoArt.SelectedValue);
+                nuevo.CantidadDisponible = int.Parse(txtCantidadArt.Text);
+               
 
                 if (Request.QueryString["Id"] != null)
                 {
-                    nuevo.IdArticulo = int.Parse(Request.QueryString["Id"].ToString());
+                    int IdArt = int.Parse(Request.QueryString["Id"].ToString());
+                    nuevo.IdArticulo = IdArt;
                     negocio.modificarSP(nuevo);
                 }
-                else { 
-                negocio.agregarSP(nuevo);
-                 }
-                Response.Redirect("Articulos.aspx", false);
+                else 
+                     negocio.agregarSP(nuevo);
+
+             Response.Redirect("Articulos.aspx", false);
             }
             catch (Exception)
             {
-                Response.Redirect("Error.aspx", false);
+                Response.Redirect("Contact.aspx", false);
             }
         }
 
@@ -98,10 +102,14 @@ namespace tpc_resto_equipo_17B
         {
             try
             {
-                if (ConfirmarEliminacionArt)
+                if (ConfirmarEliArt.Checked)
                 {
                     ArticuloNegocio negocio = new ArticuloNegocio();
-                    negocio.eliminar(int.Parse(Request.QueryString["Id"].ToString()));
+                    List<Articulo> List = negocio.listar2(Request.QueryString["Id"].ToString());
+                    Articulo selecionado = List[0]; 
+
+                   
+                    negocio.eliminar(selecionado.IdArticulo);
                     Response.Redirect("Articulos.aspx", false);
                 }
             }

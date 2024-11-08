@@ -96,13 +96,13 @@ namespace tpc_resto_equipo_17B
         protected global::System.Web.UI.WebControls.Button btnEliminarArt;
 
         /// <summary>
-        /// Control ConfirmarEliminaArt.
+        /// Control ConfirmarEliArt.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox ConfirmarEliminaArt;
+        protected global::System.Web.UI.WebControls.CheckBox ConfirmarEliArt;
 
         /// <summary>
         /// Control btnConfirmaArt.
