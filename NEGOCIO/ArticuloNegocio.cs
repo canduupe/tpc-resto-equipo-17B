@@ -49,6 +49,51 @@ namespace NEGOCIO
             }
         }
 
+        public List<Articulo> listar2(string Id = "")
+        {
+            List<Articulo> lista = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+
+                string consulta = "select IdArticulo, Nombre, Descripcion, Precio, Tipo, CantidadDisponible from Articulo ";
+                if (Id != "")
+                {
+                    consulta += "and IdArticulo= " + Id;
+                } 
+
+                datos.setearConsulta(consulta);
+             
+
+                datos.realizarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Articulo aux = new Articulo();
+
+                    aux.IdArticulo = (int)datos.Lector["IdArticulo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Precio = (decimal)datos.Lector["Precio"];
+                    aux.CantidadDisponible = (int)datos.Lector["CantidadDisponible"];
+                    aux.Tipo = (int)datos.Lector["Tipo"];
+
+                    lista.Add(aux);
+                }
+
+                return lista;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al listar los artículos: " + ex.Message);
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
         public List<Articulo> ListarConSp()
         {
             List<Articulo> lista = new List<Articulo>();
@@ -110,6 +155,49 @@ namespace NEGOCIO
             {
                 datos.cerrarConexion();
             }
+        }
+
+        public void modificarSP(Articulo nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearProcedimiento("SpModificarArticulo");
+
+                datos.setearParametro("@Id", nuevo.IdArticulo);
+                datos.setearParametro("@Nombre", nuevo.Nombre);
+                datos.setearParametro("@Descripcion", nuevo.Descripcion);
+                datos.setearParametro("@Precio", nuevo.Precio);
+                datos.setearParametro("@Tipo", nuevo.Tipo);
+                datos.setearParametro("@CantidadDisponible", nuevo.CantidadDisponible);
+
+                datos.realizarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public void eliminar(int Id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearProcedimiento("SpEliminarArticulo");
+                datos.setearParametro("@IdArticulo", Id);
+
+                datos.realizarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally { datos.cerrarConexion(); }
         }
     }
 }

@@ -11,13 +11,15 @@ namespace tpc_resto_equipo_17B
 {
     public partial class AgregarArticulo : System.Web.UI.Page
     {
+        public bool ConfirmarEliminacionArt { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!Helper.EsGerente(Session["Usuario"]))
             {
                 Response.Redirect("Error.aspx", false);
             }
-            
+            ConfirmarEliminacionArt = false;
+
             try
             {
                 if (!IsPostBack)
@@ -30,6 +32,22 @@ namespace tpc_resto_equipo_17B
                     CBTipoArt.DataTextField = "Descripcion";
                     CBTipoArt.DataBind();
                 }
+
+                string Id = Request.QueryString["Id"] != null ? Request.QueryString["Id"].ToString() : "";
+                if (Id != "" && !IsPostBack)
+                {
+                    
+                    ArticuloNegocio negocio = new ArticuloNegocio();
+                    Articulo selecionado = (negocio.listar2(Id))[0];
+
+                    txtNombreArt.Text = selecionado.Nombre;
+                    txtDescripcionArt.Text = selecionado.Descripcion;
+                    txtPrecioArt.Text = selecionado.Precio.ToString();
+                    txtCantidadArt.Text = selecionado.CantidadDisponible.ToString();
+
+                    CBTipoArt.SelectedValue = selecionado.Tipo.ToString();
+                
+                    }
             }
             catch (Exception)
             {
@@ -50,7 +68,14 @@ namespace tpc_resto_equipo_17B
                 nuevo.CantidadDisponible = int.Parse(txtCantidadArt.Text);
                 nuevo.Tipo = int.Parse(CBTipoArt.SelectedValue);
 
+                if (Request.QueryString["Id"] != null)
+                {
+                    nuevo.IdArticulo = int.Parse(Request.QueryString["Id"].ToString());
+                    negocio.modificarSP(nuevo);
+                }
+                else { 
                 negocio.agregarSP(nuevo);
+                 }
                 Response.Redirect("Articulos.aspx", false);
             }
             catch (Exception)
@@ -62,6 +87,28 @@ namespace tpc_resto_equipo_17B
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
             Response.Redirect("Articulos.aspx", false);
+        }
+
+        protected void btnEliminarArt_Click(object sender, EventArgs e)
+        {
+            ConfirmarEliminacionArt = true;
+        }
+
+        protected void btnConfirmaArt_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ConfirmarEliminacionArt)
+                {
+                    ArticuloNegocio negocio = new ArticuloNegocio();
+                    negocio.eliminar(int.Parse(Request.QueryString["Id"].ToString()));
+                    Response.Redirect("Articulos.aspx", false);
+                }
+            }
+            catch (Exception ex)
+            {
+                Session.Add("error", ex);
+            }
         }
     }
 }

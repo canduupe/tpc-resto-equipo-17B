@@ -32,14 +32,20 @@ namespace tpc_resto_equipo_17B
             if (!Helper.EsGerente(Session["Usuario"]))
             {
                 AgregarArt.Visible = false;
-                ModificarArt.Visible = false;
-                EliminarArt.Visible = false;
+                dgvCarta.Columns[6].Visible = false;
+                dgvCarta.Columns[7].Visible = false;
             }
         }
 
         protected void AgregarArt_Click(object sender, EventArgs e)
         {
             Response.Redirect("AgregarArticulo.aspx", false);
+        }
+
+        protected void dgvCarta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string id = dgvCarta.SelectedDataKey.Value.ToString();
+            Response.Redirect("AgregarArticulo.aspx?Id=" + id);
         }
     }
 }

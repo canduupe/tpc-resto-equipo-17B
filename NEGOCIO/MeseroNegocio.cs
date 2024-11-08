@@ -87,21 +87,13 @@ namespace NEGOCIO
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
             finally
             {
                 datos.cerrarConexion();
             }
-
-
-
-
-
         }
-
-
 
 
         public void AgregarSP(Mesero mesero, Usuarios usu)
@@ -124,8 +116,6 @@ namespace NEGOCIO
 
                 throw ex;
             }
-
-
         }
 
 
@@ -156,7 +146,6 @@ namespace NEGOCIO
         }
 
 
-
         public void Eliminar(int Id)
         {
             AccesoDatos datos = new AccesoDatos();
@@ -177,9 +166,7 @@ namespace NEGOCIO
             }
             finally { datos.cerrarConexion(); }
 
-
         }
-
 
     }
 }
