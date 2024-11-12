@@ -15,15 +15,5 @@ namespace DOMINIO
         public int IdUsuario { get; set; }
         public int Activo { get; set; }
         ///public List<Mesas> MesasAsignadas { get; set; }
-
-
-
-
     }
-
-
-
-
-
-
 }

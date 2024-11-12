@@ -42,6 +42,13 @@ Tipo int not null references TipoArticulo(Id),
 CantidadDisponible int not null
 )
 
+create table Mesa(
+IdMesa int primary key identity (1,1),
+IdMesero int null references Mesero(IdMesero),
+Disponible int not null default 1,
+Sector varchar(50) null
+)
+
 ---INSERTS
 
 ---tipo articulo
@@ -77,7 +84,15 @@ values ('Joaquin', 'Lopez', 2 , 1)
 insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
 values ('Candela', 'Peña', 2 , 1)
 
+---mesas
+insert into Mesa (IdMesero, Disponible, Sector)
+values (1, 1, 'Patio')
+
+insert into Mesa (IdMesero, Disponible, Sector)
+values (2, 1, 'Pasillo')
+
 select * from Articulo
 select * from Usuarios
 select * from Gerente
 select * from Mesero
+select * from Mesa
