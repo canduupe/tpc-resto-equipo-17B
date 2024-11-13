@@ -8,7 +8,7 @@
         <div class="card">
           <div class="card-body">
             <!-- Enlazar el título de cada tarjeta -->
-            <h5 class="card-title">Mesa <%# Eval("IdMesa") %></h5>
+            <h5 class="card-title">Mesa <%# Eval("NumeroMesa") %></h5>
             <!-- Enlazar el texto de cada tarjeta -->
             <p class="card-text">Sector: <%# Eval("Sector") %></p>
             <asp:Button ID="btnAsignar" runat="server" class="btn btn-outline-dark" Text="Asignar"/>
@@ -18,6 +18,7 @@
     </ItemTemplate>
   </asp:Repeater>
 </div>
-
-
+<div>
+     <asp:Button ID="btnAgregarMesa" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarMesa_Click" Text="Agregar mesa"/>
+</div>
 </asp:Content>

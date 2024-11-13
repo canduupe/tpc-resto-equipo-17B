@@ -11,25 +11,34 @@ namespace tpc_resto_equipo_17B
 {
 
 
-    public partial class Mesas
+    public partial class AgregarMesa
     {
 
         /// <summary>
-        /// Control repeaterCards.
+        /// Control txtNumeroMesa.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeaterCards;
+        protected global::System.Web.UI.WebControls.TextBox txtNumeroMesa;
 
         /// <summary>
-        /// Control btnAgregarMesa.
+        /// Control txtSector.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAgregarMesa;
+        protected global::System.Web.UI.WebControls.TextBox txtSector;
+
+        /// <summary>
+        /// Control btnAgregarM.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAgregarM;
     }
 }

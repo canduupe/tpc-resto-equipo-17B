@@ -45,6 +45,7 @@ CantidadDisponible int not null
 create table Mesa(
 IdMesa int primary key identity (1,1),
 IdMesero int null references Mesero(IdMesero),
+NumeroMesa int not null,
 Disponible int not null default 1,
 Sector varchar(50) null
 )
@@ -85,14 +86,21 @@ insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
 values ('Candela', 'Peña', 2 , 1)
 
 ---mesas
-insert into Mesa (IdMesero, Disponible, Sector)
-values (1, 1, 'Patio')
+insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
+values (1, 1, 1, 'Patio')
 
-insert into Mesa (IdMesero, Disponible, Sector)
-values (2, 1, 'Pasillo')
+insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
+values (2, 2, 1, 'Pasillo')
+
+insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
+values (2, 3, 1, 'Pasillo')
 
 select * from Articulo
 select * from Usuarios
 select * from Gerente
 select * from Mesero
 select * from Mesa
+
+DELETE FROM Mesa
+WHERE IdMesa= 4;
+

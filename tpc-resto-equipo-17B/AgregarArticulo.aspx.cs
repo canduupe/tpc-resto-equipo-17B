@@ -84,7 +84,7 @@ namespace tpc_resto_equipo_17B
             }
             catch (Exception)
             {
-                Response.Redirect("Contact.aspx", false);
+                Response.Redirect("Error.aspx", false);
             }
         }
 

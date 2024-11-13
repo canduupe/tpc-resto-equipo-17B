@@ -26,6 +26,11 @@ namespace tpc_resto_equipo_17B
                 repeaterCards.DataSource = ListaMesa;
                 repeaterCards.DataBind();
             }
-        }                
+        }
+
+        protected void btnAgregarMesa_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AgregarMesa.aspx", false);
+        }
     }
 }

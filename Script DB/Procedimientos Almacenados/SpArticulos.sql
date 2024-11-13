@@ -12,7 +12,8 @@ create procedure storedAltaArticulo
 @Tipo int,
 @Cantidad int
 as
-insert into Articulo values (@Nombre, @Descripcion, @Precio, @Tipo, @Cantidad)
+insert into Articulo(Nombre, Descripcion, Precio, Tipo, CantidadDisponible)
+values (@Nombre, @Descripcion, @Precio, @Tipo, @Cantidad)
 
 -----------------------------------------------
 

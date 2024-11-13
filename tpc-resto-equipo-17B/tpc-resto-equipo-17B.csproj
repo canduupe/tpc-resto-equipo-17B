@@ -102,6 +102,7 @@
     <Content Include="ABMGerentes.aspx" />
     <Content Include="ABMMeseros.aspx" />
     <Content Include="AgregarArticulo.aspx" />
+    <Content Include="AgregarMesa.aspx" />
     <Content Include="Articulos.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -212,6 +213,13 @@
     </Compile>
     <Compile Include="AgregarArticulo.aspx.designer.cs">
       <DependentUpon>AgregarArticulo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarMesa.aspx.cs">
+      <DependentUpon>AgregarMesa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarMesa.aspx.designer.cs">
+      <DependentUpon>AgregarMesa.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
