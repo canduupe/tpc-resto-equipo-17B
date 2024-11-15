@@ -95,6 +95,7 @@ values (2, 2, 1, 'Pasillo')
 insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
 values (2, 3, 1, 'Pasillo')
 
+
 select * from Articulo
 select * from Usuarios
 select * from Gerente
@@ -102,5 +103,4 @@ select * from Mesero
 select * from Mesa
 
 DELETE FROM Mesa
-WHERE IdMesa= 4;
-
+WHERE IdMesa= 9;
