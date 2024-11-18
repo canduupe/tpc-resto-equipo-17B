@@ -2,6 +2,7 @@
 using NEGOCIO;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -28,14 +29,28 @@ namespace tpc_resto_equipo_17B
 
         protected void dgvMeserosActivos_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Mesa mesa = new Mesa();
-            mesa.IdMesero = int.Parse(dgvMeserosActivos.SelectedDataKey.Value.ToString());
-            mesa.Disponible = 0;
+            try
+            {
+                Mesa mesa = new Mesa();
+                mesa.IdMesa = int.Parse(Request.QueryString["Id"].ToString()); ;
+                mesa.IdMesero = int.Parse(dgvMeserosActivos.SelectedDataKey.Value.ToString());
+                mesa.Disponible = 0;
 
-            MesaNegocio negocio = new MesaNegocio();
-            negocio.AsignarMesero(mesa);
+                MesaNegocio negocio = new MesaNegocio();
+                negocio.AsignarMesero(mesa);
 
-            Response.Write("Mesero añadido correctamente");
+                Response.Redirect("Mesas.aspx", false);
+            }
+            catch (Exception ex)
+            {
+                Session.Add("ERROR", ex.ToString());
+            }
+
+        }
+
+        protected void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mesas.aspx", false);
         }
     }
 }

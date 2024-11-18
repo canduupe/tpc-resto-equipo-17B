@@ -35,7 +35,8 @@ namespace tpc_resto_equipo_17B
 
         protected void btnAsignar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("AsignarMesero.aspx", false);
+            string valor = ((Button)sender).CommandArgument;
+            Response.Redirect("AsignarMesero.aspx?Id="  + valor, false);
         }
     }
 }

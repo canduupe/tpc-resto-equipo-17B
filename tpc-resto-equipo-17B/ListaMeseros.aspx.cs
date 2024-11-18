@@ -28,7 +28,6 @@ namespace tpc_resto_equipo_17B
         }
 
        
-
         protected void btnAgregarMesero_Click(object sender, EventArgs e)
         {
             Response.Redirect("ABMMeseros.aspx", false);
