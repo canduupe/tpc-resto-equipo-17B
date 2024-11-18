@@ -22,3 +22,11 @@ as
 	where IdMesa = @IdMesa;
 
 --------------------------------------------
+
+CREATE PROCEDURE SpElimnarMesa
+@IdMesa int
+AS
+DELETE FROM Mesa
+WHERE IdMesa = @IdMesa;  
+
+--------------------------------------------

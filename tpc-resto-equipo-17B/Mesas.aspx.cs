@@ -13,6 +13,7 @@ namespace tpc_resto_equipo_17B
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             if (!Helper.EsGerente(Session["Usuario"]))
             {
                 Response.Redirect("Error.aspx", false);
@@ -38,5 +39,23 @@ namespace tpc_resto_equipo_17B
             string valor = ((Button)sender).CommandArgument;
             Response.Redirect("AsignarMesero.aspx?Id="  + valor, false);
         }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MesaNegocio negocio = new MesaNegocio();
+                int valor = int.Parse(((Button)sender).CommandArgument);
+                negocio.Eliminar(valor);
+                Response.Redirect("Mesas.aspx", false);
+            }
+            catch (Exception ex)
+            {
+                Session.Add("ERROR", ex.ToString());
+            }
+        }
+
+            
+
     }
 }

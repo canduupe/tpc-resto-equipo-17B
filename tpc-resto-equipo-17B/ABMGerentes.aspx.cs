@@ -20,6 +20,7 @@ namespace tpc_resto_equipo_17B
             }
 
             ConfirmaEliminacion = false;
+
             if (Request.QueryString["Id"]!= null && !IsPostBack)
             {
                 GerenteNegocio negocio = new GerenteNegocio();
@@ -92,7 +93,6 @@ namespace tpc_resto_equipo_17B
             }
             catch (Exception ex)
             {
-
                 Session.Add("ERROR", ex.ToString());
             }
         }
