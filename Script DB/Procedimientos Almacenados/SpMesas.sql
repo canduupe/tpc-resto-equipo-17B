@@ -9,3 +9,16 @@ insert into Mesa (NumeroMesa, Disponible, Sector)
 values (@NumeroMesa, @Disponible, @Sector)
 
 --------------------------------------------
+
+ create PROCEDURE SpAsignarMesero
+	@IdMesa int,
+    @IdMesero int,
+	@Disponible int
+as
+    update Mesa
+    set 
+    IdMesero = @IdMesero,
+	Disponible = @Disponible
+	where IdMesa = @IdMesa;
+
+--------------------------------------------

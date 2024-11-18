@@ -104,6 +104,7 @@
     <Content Include="AgregarArticulo.aspx" />
     <Content Include="AgregarMesa.aspx" />
     <Content Include="Articulos.aspx" />
+    <Content Include="AsignarMesero.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -229,6 +230,13 @@
     </Compile>
     <Compile Include="Articulos.aspx.designer.cs">
       <DependentUpon>Articulos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarMesero.aspx.cs">
+      <DependentUpon>AsignarMesero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarMesero.aspx.designer.cs">
+      <DependentUpon>AsignarMesero.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

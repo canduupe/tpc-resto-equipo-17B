@@ -10,7 +10,7 @@ namespace DOMINIO
     {
         public int IdMesa { get; set; }
         public int NumeroMesa { get; set; }
-        public int IdMesero { get; set; }
+        public int? IdMesero { get; set; }
         public int Disponible { get; set; }
         public string Sector { get; set; }
     }

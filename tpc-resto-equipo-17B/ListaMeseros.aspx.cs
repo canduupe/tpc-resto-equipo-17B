@@ -27,16 +27,17 @@ namespace tpc_resto_equipo_17B
                 dgvMeseros.DataBind();
         }
 
-        protected void dgvMeseros_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string id = dgvMeseros.SelectedDataKey.Value.ToString();
-            Response.Redirect("ABMMeseros.aspx?Id=" + id);    
-
-        }
+       
 
         protected void btnAgregarMesero_Click(object sender, EventArgs e)
         {
             Response.Redirect("ABMMeseros.aspx", false);
+        }
+
+        protected void dgvMeseros_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string id = dgvMeseros.SelectedDataKey.Value.ToString();
+            Response.Redirect("ABMMeseros.aspx?Id=" + id);
         }
     }
 }

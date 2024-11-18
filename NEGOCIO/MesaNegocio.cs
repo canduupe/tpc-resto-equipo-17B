@@ -25,7 +25,7 @@ namespace NEGOCIO
                     Mesa aux = new Mesa();
 
                     aux.IdMesa = (int)datos.Lector["IdMesa"];
-                    aux.IdMesero = (int)datos.Lector["IdMesero"];
+                    aux.IdMesero = datos.Lector["IdMesero"] != DBNull.Value ? (int)datos.Lector["IdMesero"] : (int?)null;
                     aux.NumeroMesa = (int)datos.Lector["NumeroMesa"];
                     aux.Disponible = (int)datos.Lector["Disponible"];
                     aux.Sector = (string)datos.Lector["Sector"];
@@ -68,5 +68,31 @@ namespace NEGOCIO
                 datos.cerrarConexion();
             }
         }
+
+        public void AsignarMesero(Mesa mesa)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearProcedimiento("SpAsignarMesero");
+
+
+                datos.setearParametro("@IdMesa", mesa.IdMesa);
+                datos.setearParametro("@IdMesero", mesa.IdMesero);
+                datos.setearParametro("@Disponible", mesa.Disponible);
+
+                datos.realizarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+
     }
 }

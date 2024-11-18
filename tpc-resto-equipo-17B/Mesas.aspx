@@ -12,7 +12,7 @@
             <h5 class="card-title">Mesa <%# Eval("NumeroMesa") %></h5>
             <!-- Enlazar el texto de cada tarjeta -->
             <p class="card-text">Sector: <%# Eval("Sector") %></p>
-            <asp:Button ID="btnAsignar" runat="server" class="btn btn-outline-dark" Text="Asignar"/>
+            <asp:Button ID="btnAsignar" runat="server" class="btn btn-outline-dark" OnClick="btnAsignar_Click" Text="Asignar"/>
           </div>
         </div>
       </div>

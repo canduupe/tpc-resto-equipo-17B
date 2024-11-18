@@ -85,6 +85,9 @@ values ('Joaquin', 'Lopez', 2 , 1)
 insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
 values ('Candela', 'Peña', 2 , 1)
 
+insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
+values ('Magali', 'Tourne', 2 , 0)
+
 ---mesas
 insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
 values (1, 1, 1, 'Patio')
@@ -104,3 +107,4 @@ select * from Mesa
 
 DELETE FROM Mesa
 WHERE IdMesa= 9;
+

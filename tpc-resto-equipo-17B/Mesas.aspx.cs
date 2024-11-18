@@ -32,5 +32,10 @@ namespace tpc_resto_equipo_17B
         {
             Response.Redirect("AgregarMesa.aspx", false);
         }
+
+        protected void btnAsignar_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AsignarMesero.aspx", false);
+        }
     }
 }
