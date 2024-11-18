@@ -39,5 +39,10 @@ namespace tpc_resto_equipo_17B
                 Response.Redirect("Error.aspx", false);
             }
         }
+
+        protected void btnCancelarM_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Mesas.aspx", false);
+        }
     }
 }

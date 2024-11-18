@@ -1,16 +1,22 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Articulos.aspx.cs" Inherits="tpc_resto_equipo_17B.Articulos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <h1 class="text-center">CARTA   </h1>
 
+    <style>
+    .oculto{
+        display: none;
+    }
+    </style>
+
+    <h1 class="text-center">CARTA   </h1>
 
    <asp:GridView ID="dgvCarta" runat="server" CssClass="table" AutoGenerateColumns="false" DataKeyNames="IdArticulo" OnSelectedIndexChanged="dgvCarta_SelectedIndexChanged">
     <Columns>
-        <asp:BoundField HeaderText="IdArticulo" DataField="IdArticulo" />
+        <asp:BoundField HeaderText="IdArticulo" DataField="IdArticulo" HeaderStyle-CssClass="oculto" ItemStyle-CssClass="oculto"/>
         <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
         <asp:BoundField HeaderText="Descripcion" DataField="Descripcion" />
         <asp:BoundField HeaderText="Precio" DataField="Precio" />
-        <asp:BoundField HeaderText="Tipo" DataField="Tipo" />
+        <asp:BoundField HeaderText="Tipo" DataField="Tipo" HeaderStyle-CssClass="oculto" ItemStyle-CssClass="oculto"/>
         <asp:BoundField HeaderText="CantidadDisponible" DataField="CantidadDisponible" />
 
         <asp:CommandField HeaderText="Eliminar" ShowSelectButton="true" SelectText="☠️" />

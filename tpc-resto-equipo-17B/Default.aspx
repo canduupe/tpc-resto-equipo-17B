@@ -18,7 +18,7 @@
                 <asp:TextBox ID="txtContra" class="form-control"  TextMode="Password"  runat="server"></asp:TextBox>
             </div>
             <div class="Separacion">
-                <asp:Button ID="BtnIngresar" class="btn btn-primary" runat="server" OnClick="btnIngreso_Click" Text="Ingresar" />
+                <asp:Button ID="BtnIngresar" CssClass="btn btn-outline-dark" runat="server" OnClick="btnIngreso_Click" Text="Ingresar" />
             </div>
         </div>
     </section>

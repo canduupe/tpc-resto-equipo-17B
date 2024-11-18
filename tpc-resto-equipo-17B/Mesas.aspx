@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Mesas.aspx.cs" Inherits="tpc_resto_equipo_17B.Mesas" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+     <hr />
 
 <div class="row">
   <asp:Repeater ID="repeaterCards" runat="server">
@@ -18,6 +19,7 @@
     </ItemTemplate>
   </asp:Repeater>
 </div>
+    <hr />
 <div>
      <asp:Button ID="btnAgregarMesa" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarMesa_Click" Text="Agregar mesa"/>
 </div>

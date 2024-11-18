@@ -20,9 +20,7 @@
     </div>
     <div class="col-4 Separacion">   
         <asp:Button ID="btnAceptar" runat="server" Cssclass="btn btn-secondary" OnClick="btnAceptar_Click" Text="ACEPTAR" />
-        <div class="col-4 Separacion">
-            <asp:Button ID="btnCancelar" runat="server" Cssclass="btn btn-dark" OnClick="btnCancelar_Click" Text="CANCELAR" />
-        </div>
+        <asp:Button ID="btnCancelar" runat="server" Cssclass="btn btn-dark" OnClick="btnCancelar_Click" Text="CANCELAR" />
     </div>
     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
     <ContentTemplate>

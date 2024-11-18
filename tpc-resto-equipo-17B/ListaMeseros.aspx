@@ -2,22 +2,30 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
+    <style>
+        .oculto{
+            display: none;
+        }
+    </style>
 
+    <hr />
     <asp:GridView ID="dgvMeseros" runat="server" CssClass="table" AutoGenerateColumns="false" DataKeyNames="IdMesero" OnSelectedIndexChanged="dgvMeseros_SelectedIndexChanged">
         <Columns>
             <asp:BoundField HeaderText="IdMesero" DataField="IdMesero" />
             <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
             <asp:BoundField HeaderText="Apellido" DataField="Apellido" />
-            <asp:BoundField HeaderText="IdUsuario" DataField="IdUsuario" />
-            <asp:BoundField HeaderText="Activo" DataField="Activo" />
+            <asp:BoundField HeaderText="IdUsuario" DataField="IdUsuario" HeaderStyle-CssClass="oculto" ItemStyle-CssClass="oculto"/>
+            <asp:BoundField HeaderText="Activo" DataField="Activo" HeaderStyle-CssClass="oculto" ItemStyle-CssClass="oculto"/>
 
             <asp:CommandField HeaderText="Eliminar" ShowSelectButton="true" SelectText="☠️" />
             <asp:CommandField HeaderText="Modificar" ShowSelectButton="true" SelectText="📎" />
-        </Columns>
-            </asp:GridView>
 
-       <div>
-    <asp:Button ID="btnAgregarMesero" runat="server" class="btn btn-outline-dark" Onclick="btnAgregarMesero_Click" Text="Agregar"/>
-        </div>
+         </Columns>
+    </asp:GridView>
+
+    <div>
+            <asp:Button ID="btnAgregarMesero" runat="server" class="btn btn-outline-dark" Onclick="btnAgregarMesero_Click" Text="Agregar"/>
+    </div>
+
 </asp:Content>
 
