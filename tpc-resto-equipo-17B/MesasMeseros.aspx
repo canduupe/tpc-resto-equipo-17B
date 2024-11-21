@@ -9,8 +9,8 @@
           <div class="card-body">
             <h5 class="card-title">Mesa <%# Eval("NumeroMesa") %></h5>
             <p class="card-text">Sector: <%# Eval("Sector") %></p>
-            <asp:Button ID="btnAsignar" runat="server" class="btn btn-outline-dark" Text="Iniciar pedido" commandArgument='<%# Eval("IdMesa") %>' CommandName="IdMesaSelec" />             
-            <asp:Button ID="btnEliminar" runat="server" class="btn btn-outline-danger" Text="Agregar articulos" commandArgument='<%# Eval("IdMesa") %>' CommandName="IdMesaSelec" /> 
+            <asp:Button ID="btnIniciarPedido" runat="server" class="btn btn-outline-dark" Text="Iniciar pedido" commandArgument='<%# Eval("IdMesa") %>' CommandName="IdMesaSelec" OnClick="btnIniciarPedido_Click"/>             
+            <asp:Button ID="btnAgregarPedido" runat="server" class="btn btn-outline-danger" Text="Agregar articulos" commandArgument='<%# Eval("IdMesa") %>' CommandName="IdMesaSelec" OnClick="btnAgregarPedido_Click" /> 
           </div>
         </div>
       </div>

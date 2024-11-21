@@ -62,7 +62,6 @@ insert into Pedidos values (1,GETDATE())
 select IdPedido, IdMesa, Fecha, Activo from Pedidos
 
 
-
 create table Articulos_X_Pedido(
 IdPedido int Foreign key references Pedidos(IdPedido),
 IdArticulo int not null references Articulo (IdArticulo),
@@ -129,6 +128,7 @@ select * from Usuarios
 select * from Gerente
 select * from Mesero
 select * from Mesa
+select * from Pedidos
 
 DELETE FROM Mesa
 WHERE IdMesa= 9;

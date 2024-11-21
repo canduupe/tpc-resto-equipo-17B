@@ -11,34 +11,34 @@ namespace tpc_resto_equipo_17B
 {
 
 
-    public partial class TomarPedido
+    public partial class Orden
     {
 
         /// <summary>
-        /// Control dgvCartita.
+        /// Control DgvOrden.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dgvCartita;
+        protected global::System.Web.UI.WebControls.GridView DgvOrden;
 
         /// <summary>
-        /// Control btnVolver.
+        /// Control BtnVolver.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVolver;
+        protected global::System.Web.UI.WebControls.Button BtnVolver;
 
         /// <summary>
-        /// Control btnDetalle.
+        /// Control BtnCerrarPedido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDetalle;
+        protected global::System.Web.UI.WebControls.Button BtnCerrarPedido;
     }
 }

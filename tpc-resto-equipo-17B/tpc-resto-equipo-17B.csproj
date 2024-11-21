@@ -134,6 +134,7 @@
     <Content Include="Mesas.aspx" />
     <Content Include="MesasMeseros.aspx" />
     <Content Include="Meseros.aspx" />
+    <Content Include="Orden.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -306,6 +307,13 @@
     </Compile>
     <Compile Include="Meseros.aspx.designer.cs">
       <DependentUpon>Meseros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Orden.aspx.cs">
+      <DependentUpon>Orden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Orden.aspx.designer.cs">
+      <DependentUpon>Orden.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">

@@ -23,5 +23,30 @@ namespace tpc_resto_equipo_17B
             }
 
         }
+
+        protected void btnIniciarPedido_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Pedidos nuevo = new Pedidos();
+                PedidosNegocio negocio = new PedidosNegocio();
+                string valor = ((Button)sender).CommandArgument;
+
+                nuevo.FechaPedido = DateTime.Now;
+                nuevo.IdMesa = int.Parse(valor);
+                negocio.NuevoPedido(nuevo);
+
+                Response.Redirect("TomarPedido.aspx", false);
+            }
+            catch (Exception)
+            {
+                Response.Redirect("Error.aspx", false);
+            }
+        }
+
+        protected void btnAgregarPedido_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TomarPedido.aspx", false);
+        }
     }
 }

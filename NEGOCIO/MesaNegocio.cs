@@ -113,7 +113,6 @@ namespace NEGOCIO
             {
                 datos.setearProcedimiento("SpAsignarMesero");
 
-
                 datos.setearParametro("@IdMesa", mesa.IdMesa);
                 datos.setearParametro("@IdMesero", mesa.IdMesero);
                 datos.setearParametro("@Disponible", mesa.Disponible);

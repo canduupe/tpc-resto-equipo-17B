@@ -34,14 +34,31 @@ namespace tpc_resto_equipo_17B
 
         protected void dgvCartita_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int IdArti = int.Parse(dgvCartita.SelectedDataKey["IdArticulo"].ToString());
-            float Preci = float.Parse(dgvCartita.SelectedDataKey["Precio"].ToString());
-            int mese = int.Parse(Session["Meser"].ToString());
+            try
+            {
+                int IdArti = int.Parse(dgvCartita.SelectedDataKey["IdArticulo"].ToString());
+                float Preci = float.Parse(dgvCartita.SelectedDataKey["Precio"].ToString());
+                int mese = int.Parse(Session["Meser"].ToString());
+                int IdPedido = 1;
 
-            PedidosNegocio negocio = new PedidosNegocio();
-            negocio.AgregarConSp(IdArti,mese, 1, Preci);
+                PedidosNegocio negocio = new PedidosNegocio();
+                negocio.AgregarConSp(IdArti, mese, IdPedido, Preci);
+            }
+            catch (Exception ex)
+            {
+                Session.Add("ERROR", ex.ToString());
+            }
 
+        }
 
+        protected void btnVolver_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MesasMeseros.aspx", false);
+        }
+
+        protected void btnDetalle_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("Orden.aspx", false);
         }
     }
 }

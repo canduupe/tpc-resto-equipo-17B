@@ -17,4 +17,7 @@
  </Columns>
      </asp:GridView>
 
+         <asp:Button ID="btnVolver" runat="server" class="btn btn-outline-dark" OnClick="btnVolver_Click" Text="Volver"/>
+         <asp:Button ID="btnDetalle" runat="server" class="btn btn-outline-dark" OnClick="btnDetalle_Click1" Text="Detalle"/>
+
 </asp:Content>

@@ -38,11 +38,8 @@ namespace NEGOCIO
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
-
-
         }
 
         public void setearPedido()
@@ -52,17 +49,11 @@ namespace NEGOCIO
             try
             {
                 datos.setearConsulta("insert into Pedidos values (1,GETDATE())");
-                
-
-
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
-
-
         }
 
 
@@ -92,6 +83,29 @@ namespace NEGOCIO
             }
 
         }
+
+        public void NuevoPedido(Pedidos nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.setearProcedimiento("InsertarPedido");
+                datos.setearParametro("@IdMesa", nuevo.IdMesa);
+                datos.setearParametro("@Fecha", nuevo.FechaPedido);
+
+                datos.realizarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al agregar mesa" + ex.Message);
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
 
 
 

@@ -28,10 +28,7 @@ namespace tpc_resto_equipo_17B
 
         protected void btnPedidos_Click(object sender, EventArgs e)
         {
-            PedidosNegocio negocio = new PedidosNegocio();
-            negocio.setearPedido();
-
-            Response.Redirect("TomarPedido.aspx", false);
+           //listar pedidos por mesero
         }
 
         protected void btnMesasAsig_Click(object sender, EventArgs e)
