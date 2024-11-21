@@ -27,6 +27,11 @@ namespace tpc_resto_equipo_17B
                 if (usuarioNegocio.Login(usuario))
                 {
                     Session.Add("usuario", usuario);
+                    if(usuario.TipoUsuario == tipoUsuario.MESERO)
+                    {
+                        Session.Add("Meser", usuario.Id);
+                    }
+                    
                     Response.Redirect("Articulos.aspx", false);
                 }
                 else

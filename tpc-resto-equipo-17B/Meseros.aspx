@@ -9,7 +9,7 @@
 
             <asp:Button ID="btnMesasAsig" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Mesas Asignadas"/>
 
-            <asp:Button ID="btnPedidos" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Pedidos"/>
+            <asp:Button ID="btnPedidos" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Pedidos" OnClick="btnPedidos_Click"/>
 
             <asp:Button ID="btnListar" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Onclick="btnListar_Click" Text="Listar Meseros"/>
 

@@ -25,5 +25,14 @@ namespace tpc_resto_equipo_17B
         {
             Response.Redirect("ListaMeseros.aspx", false);
         }
+
+        protected void btnPedidos_Click(object sender, EventArgs e)
+        {
+            PedidosNegocio negocio = new PedidosNegocio();
+            negocio.setearPedido();
+
+            Response.Redirect("TomarPedido.aspx", false);
+
+        }
     }
 }

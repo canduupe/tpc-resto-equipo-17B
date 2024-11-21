@@ -2,6 +2,7 @@
 using NEGOCIO;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -18,6 +19,7 @@ namespace tpc_resto_equipo_17B
             {
                 Response.Redirect("Error.aspx", false);
             }
+           
 
             if (!IsPostBack)
             {
@@ -55,7 +57,10 @@ namespace tpc_resto_equipo_17B
             }
         }
 
-            
 
+       /* protected void BtnPedido_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ListaPedidos.aspx", false );
+        }*/
     }
 }

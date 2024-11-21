@@ -10,7 +10,7 @@
 
     <h1 class="text-center">CARTA   </h1>
 
-   <asp:GridView ID="dgvCarta" runat="server" CssClass="table" AutoGenerateColumns="false" DataKeyNames="IdArticulo" OnSelectedIndexChanged="dgvCarta_SelectedIndexChanged">
+   <asp:GridView ID="dgvCarta" runat="server" CssClass="table" AutoGenerateColumns="false" DataKeyNames="IdArticulo"   OnSelectedIndexChanged="dgvCarta_SelectedIndexChanged">
     <Columns>
         <asp:BoundField HeaderText="IdArticulo" DataField="IdArticulo" HeaderStyle-CssClass="oculto" ItemStyle-CssClass="oculto"/>
         <asp:BoundField HeaderText="Nombre" DataField="Nombre" />

@@ -22,3 +22,9 @@ C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (18)\tpc-resto-equipo-17B\DOMIN
 C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (18)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.csproj.CoreCompileInputs.cache
 C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (18)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.dll
 C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (18)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.pdb
+C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (21)\tpc-resto-equipo-17B\DOMINIO\bin\Debug\DOMINIO.dll
+C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (21)\tpc-resto-equipo-17B\DOMINIO\bin\Debug\DOMINIO.pdb
+C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (21)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.csproj.AssemblyReference.cache
+C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (21)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (21)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.dll
+C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (21)\tpc-resto-equipo-17B\DOMINIO\obj\Debug\DOMINIO.pdb
