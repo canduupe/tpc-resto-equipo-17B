@@ -132,6 +132,7 @@
     <Content Include="ListaPedidos.aspx" />
     <Content Include="ListarGerentes.aspx" />
     <Content Include="Mesas.aspx" />
+    <Content Include="MesasMeseros.aspx" />
     <Content Include="Meseros.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -291,6 +292,13 @@
     </Compile>
     <Compile Include="Mesas.aspx.designer.cs">
       <DependentUpon>Mesas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MesasMeseros.aspx.cs">
+      <DependentUpon>MesasMeseros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesasMeseros.aspx.designer.cs">
+      <DependentUpon>MesasMeseros.aspx</DependentUpon>
     </Compile>
     <Compile Include="Meseros.aspx.cs">
       <DependentUpon>Meseros.aspx</DependentUpon>

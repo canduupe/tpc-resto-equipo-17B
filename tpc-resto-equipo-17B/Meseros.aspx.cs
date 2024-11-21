@@ -32,7 +32,11 @@ namespace tpc_resto_equipo_17B
             negocio.setearPedido();
 
             Response.Redirect("TomarPedido.aspx", false);
+        }
 
+        protected void btnMesasAsig_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("MesasMeseros.aspx", false);
         }
     }
 }

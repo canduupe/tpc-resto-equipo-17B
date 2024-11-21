@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-     <h1 class="text-center">CARTA   </h1>
+     <h1 class="text-center">ARTICULOS</h1>
 
 <asp:GridView ID="dgvCartita" runat="server" CssClass="table" AutoGenerateColumns="false" DataKeyNames="IdArticulo, Precio" OnSelectedIndexChanged="dgvCartita_SelectedIndexChanged">
  <Columns>
@@ -14,10 +14,7 @@
      <asp:BoundField HeaderText="CantidadDisponible" DataField="CantidadDisponible" />
 
      <asp:CommandField HeaderText="Agregar a Orden" ShowSelectButton="true" SelectText="🍲" />
-     <%--<asp:CommandField HeaderText="El" ShowSelectButton="true" SelectText="📎" />--%>
  </Columns>
      </asp:GridView>
-
-
 
 </asp:Content>

@@ -56,11 +56,5 @@ namespace tpc_resto_equipo_17B
                 Session.Add("ERROR", ex.ToString());
             }
         }
-
-
-       /* protected void BtnPedido_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("ListaPedidos.aspx", false );
-        }*/
     }
 }

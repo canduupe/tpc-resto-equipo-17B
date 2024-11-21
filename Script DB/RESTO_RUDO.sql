@@ -50,6 +50,31 @@ Disponible int not null default 1,
 Sector varchar(50) null
 )
 
+create table Pedidos(
+IdPedido int primary key identity (1,1),
+IdMesa int not null references Mesa(IdMesa),
+Fecha datetime not null,
+)
+Alter table Pedidos
+add Activo int not null default 1
+
+insert into Pedidos values (1,GETDATE())
+select IdPedido, IdMesa, Fecha, Activo from Pedidos
+
+
+
+create table Articulos_X_Pedido(
+IdPedido int Foreign key references Pedidos(IdPedido),
+IdArticulo int not null references Articulo (IdArticulo),
+Mesero int not null FOREIGN key references Usuarios(Id),
+Activo int not null default 1,
+Precio money not null
+)
+
+insert into Articulos_X_Pedido values (1, 5, 15, 1, 800)
+select IdPedido, IdArticulo, Mesero, Activo, Precio from Articulos_X_Pedido
+
+
 ---INSERTS
 
 ---tipo articulo
@@ -96,7 +121,7 @@ insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
 values (2, 2, 1, 'Pasillo')
 
 insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
-values (2, 3, 1, 'Pasillo')
+values (2, 4, 1, 'Pasillo')
 
 
 select * from Articulo
@@ -107,4 +132,3 @@ select * from Mesa
 
 DELETE FROM Mesa
 WHERE IdMesa= 9;
-

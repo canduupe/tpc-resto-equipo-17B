@@ -7,7 +7,7 @@
     <div class="d-flex align-items-start">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-            <asp:Button ID="btnMesasAsig" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Mesas Asignadas"/>
+            <asp:Button ID="btnMesasAsig" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Mesas Asignadas" OnClick="btnMesasAsig_Click"/>
 
             <asp:Button ID="btnPedidos" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Pedidos" OnClick="btnPedidos_Click"/>
 
