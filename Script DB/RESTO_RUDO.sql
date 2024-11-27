@@ -53,13 +53,16 @@ Sector varchar(50) null
 create table Pedidos(
 IdPedido int primary key identity (1,1),
 IdMesa int not null references Mesa(IdMesa),
+IdMesero int not null references Mesero(IdMesero),
 Fecha datetime not null,
+Activo int not null default 1
 )
-Alter table Pedidos
-add Activo int not null default 1
 
-insert into Pedidos values (1,GETDATE())
-select IdPedido, IdMesa, Fecha, Activo from Pedidos
+
+
+INSERT INTO Pedidos (IdMesa, IdMesero, Fecha)
+VALUES (1, 8, GETDATE());
+select IdPedido, IdMesa, IdMesero, Fecha, Activo from Pedidos
 
 
 create table Articulos_X_Pedido(
@@ -70,8 +73,11 @@ Activo int not null default 1,
 Precio money not null
 )
 
-insert into Articulos_X_Pedido values (1, 5, 15, 1, 800)
-select IdPedido, IdArticulo, Mesero, Activo, Precio from Articulos_X_Pedido
+insert into Articulos_X_Pedido values (2, 5, 15, 1, 800)
+
+DELETE FROM Pedidos;
+DELETE FROM Articulos_X_Pedido;
+
 
 
 ---INSERTS
@@ -80,7 +86,8 @@ select IdPedido, IdArticulo, Mesero, Activo, Precio from Articulos_X_Pedido
 insert into TipoArticulo (Descripcion)
 values ('bebida')
 
-insert into TipoArticulo (Descripcion)
+insert into TipoArticulo (Descripcion)select IdPedido, IdArticulo, Mesero, Activo, Precio from Articulos_X_Pedido
+
 values ('principal')
 
 ---articulos
@@ -110,7 +117,7 @@ insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
 values ('Candela', 'Peña', 2 , 1)
 
 insert into Mesero (Nombre, Apellido, IdUsuario, Activo)
-values ('Magali', 'Tourne', 2 , 0)
+values ('Magali', 'Tourne', 15 , 1)
 
 ---mesas
 insert into Mesa (IdMesero, NumeroMesa, Disponible, Sector)
@@ -132,3 +139,23 @@ select * from Pedidos
 
 DELETE FROM Mesa
 WHERE IdMesa= 9;
+
+
+
+
+
+Create Procedure eliminarDeOrden
+@IdArti int
+as
+Delete from Articulos_X_Pedido
+where IdArticulo = @IdArti
+
+
+
+Create Procedure PedidosXMese
+@IdMesero int
+as 
+select P.IdPedido as IdPedido, P.IdMesero  as Mesero from Pedidos P
+inner join Mesero as M on M.IdMesero = P.IdMesero
+inner Join Usuarios as U on U.Id = M.IdUsuario
+Where P.IdMesero = @IdMesero
