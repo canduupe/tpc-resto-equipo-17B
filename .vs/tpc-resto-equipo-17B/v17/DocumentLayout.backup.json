@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|c:\\users\\54115\\desktop\\tpc\\tpc-resto-equipo-17b\\negocio\\pedidosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\pedidosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|c:\\users\\54115\\desktop\\tpc\\tpc-resto-equipo-17b\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\54115\\desktop\\tpc\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\tomarpedido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\tomarpedido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\54115\\desktop\\tpc\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesasmeseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesasmeseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\54115\\desktop\\tpc\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\mesasmeseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesasmeseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\54115\\desktop\\tpc\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\orden.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\orden.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +34,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\NEGOCIO\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "NEGOCIO\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\NEGOCIO\\ArticuloNegocio.cs",
+              "RelativeToolTip": "NEGOCIO\\ArticuloNegocio.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:26:07.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PedidosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\NEGOCIO\\PedidosNegocio.cs",
+              "RelativeDocumentMoniker": "NEGOCIO\\PedidosNegocio.cs",
+              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\NEGOCIO\\PedidosNegocio.cs*",
+              "RelativeToolTip": "NEGOCIO\\PedidosNegocio.cs*",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAI0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T00:06:19.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Orden.aspx",
+              "DocumentMoniker": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx",
+              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Orden.aspx",
+              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\Orden.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-26T23:44:10.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MesasMeseros.aspx.cs",
               "DocumentMoniker": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
-              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
-              "RelativeToolTip": "tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs*",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\MesasMeseros.aspx.cs*",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T20:48:05.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MesasMeseros.aspx",
               "DocumentMoniker": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\MesasMeseros.aspx",
@@ -52,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TomarPedido.aspx.cs",
               "DocumentMoniker": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
-              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs*",
-              "RelativeToolTip": "tpc-resto-equipo-17B\\TomarPedido.aspx.cs*",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACwAAABEAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\54115\\Desktop\\tpc\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T20:12:57.974Z",
               "EditorCaption": ""

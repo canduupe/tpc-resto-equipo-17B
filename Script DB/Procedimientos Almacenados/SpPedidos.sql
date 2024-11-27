@@ -8,3 +8,14 @@ CREATE PROCEDURE InsertarArticulosXPedido
 AS
   INSERT INTO Articulos_X_Pedido (IdPedido, IdArticulo, Mesero, Precio)
         VALUES (@IdPedido, @IdArticulo, @IdUsuM, @Precio);
+
+------------------------------------------------------
+
+CREATE PROCEDURE InsertarPedido
+    @IdMesa INT,
+    @Fecha DATETIME
+AS
+    INSERT INTO Pedidos (IdMesa, Fecha)
+    VALUES (@IdMesa, @Fecha)
+
+	

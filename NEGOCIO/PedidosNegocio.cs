@@ -1,5 +1,6 @@
 ﻿using DOMINIO;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -106,8 +107,39 @@ namespace NEGOCIO
             }
         }
 
+        public int LeerPedido(Pedidos nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
 
+            try
+            {
+                string consulta = "select IdPedido, IdMesa, Fecha, Activo from Pedidos ";
+              
+                    consulta += "where IdMesa= " + nuevo.IdMesa;
 
+                datos.setearConsulta(consulta);
+
+                datos.realizarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    nuevo.IdPedido = (int)datos.Lector["IdPedido"];
+                }
+
+                return nuevo.IdPedido;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al leer pedido" + ex.Message);
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+      
 
     }
 }
