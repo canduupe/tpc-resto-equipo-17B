@@ -19,7 +19,7 @@ namespace NEGOCIO
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("server=.\\SQLEXPRESS; database=RESTO_RUDO; integrated security=true;");
+            conexion = new SqlConnection("server=.\\SQLEXPRESS01; database=RESTO_RUDO; integrated security=true;");
             comando = new SqlCommand();
         }
 

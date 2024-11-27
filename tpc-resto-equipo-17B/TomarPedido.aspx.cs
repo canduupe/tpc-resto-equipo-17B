@@ -39,7 +39,9 @@ namespace tpc_resto_equipo_17B
                 int IdArti = int.Parse(dgvCartita.SelectedDataKey["IdArticulo"].ToString());
                 float Preci = float.Parse(dgvCartita.SelectedDataKey["Precio"].ToString());
                 int mese = int.Parse(Session["Meser"].ToString());
-                int IdPedido = 1;
+                int IdPedido = 1; //int.Parse(Request.QueryString["IdPedido"].ToString());
+                
+
 
                 PedidosNegocio negocio = new PedidosNegocio();
                 negocio.AgregarConSp(IdArti, mese, IdPedido, Preci);

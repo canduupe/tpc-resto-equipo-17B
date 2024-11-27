@@ -11,14 +11,15 @@ namespace tpc_resto_equipo_17B
 {
     public partial class Orden : System.Web.UI.Page
     {
+        List<Ordenes> ListaOrden;   
         protected void Page_Load(object sender, EventArgs e)
         {
             try
             {
 
                 OrdenNegocio objListar = new OrdenNegocio();
-
-                DgvOrden.DataSource = objListar.Listar();
+                ListaOrden = objListar.Listar();
+                DgvOrden.DataSource = ListaOrden;
                 DgvOrden.DataBind();
             }
             catch (Exception ex)
@@ -40,6 +41,12 @@ namespace tpc_resto_equipo_17B
 
         protected void DgvOrden_SelectedIndexChanged(object sender, EventArgs e)
         {
+            int IdArticulo = int.Parse(DgvOrden.SelectedDataKey["IdArticulo"].ToString());
+            OrdenNegocio neg = new OrdenNegocio();
+            neg.EliminarArti(IdArticulo);
+            DgvOrden.DataSource = neg.Listar();
+            DgvOrden.DataBind();
+
 
         }
     }

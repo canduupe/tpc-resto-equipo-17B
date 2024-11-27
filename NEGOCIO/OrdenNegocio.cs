@@ -9,9 +9,9 @@ namespace NEGOCIO
 {
     public class OrdenNegocio
     {
-        public List<Orden> Listar()
+        public List<Ordenes> Listar()
         {
-            List<Orden> lista = new List<Orden>();
+            List<Ordenes> lista = new List<Ordenes>();
             AccesoDatos datos = new AccesoDatos();
            
             try
@@ -21,7 +21,7 @@ namespace NEGOCIO
 
                 while (datos.Lector.Read())
                 {
-                    Orden aux = new Orden();
+                    Ordenes aux = new Ordenes();
 
                     aux.IdPedido = (int)datos.Lector["IdPedido"];
                     aux.IdArticulo = (int)datos.Lector["IdArticulo"];
@@ -47,6 +47,38 @@ namespace NEGOCIO
             }
 
         }
+
+
+        public void EliminarArti(int arti)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+
+            try
+            {
+
+                datos.setearProcedimiento("eliminarDeOrden");
+                datos.setearParametro("@IdArti", arti);
+
+                datos.realizarLectura();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+
+        }
+
+
+
+
 
 
     }

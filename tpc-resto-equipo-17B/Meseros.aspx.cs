@@ -28,7 +28,7 @@ namespace tpc_resto_equipo_17B
 
         protected void btnPedidos_Click(object sender, EventArgs e)
         {
-           //listar pedidos por mesero
+            Response.Redirect("TomarPedido.aspx", false);
         }
 
         protected void btnMesasAsig_Click(object sender, EventArgs e)
