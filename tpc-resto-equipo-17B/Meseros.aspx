@@ -12,7 +12,9 @@
             <asp:Button ID="btnPedidos" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Text="Pedidos" OnClick="btnPedidos_Click"/>
 
             <asp:Button ID="btnListar" runat="server" class="nav-link" data-bs-toggle="pill" type="button" data-bs-target="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false" Onclick="btnListar_Click" Text="Listar Meseros"/>
+            
 
+            
         </div>
        <div class="tab-content" id="v-pills-tabContent">
         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">...</div>

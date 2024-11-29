@@ -64,10 +64,12 @@ INSERT INTO Pedidos (IdMesa, IdMesero, Fecha)
 VALUES (1, 8, GETDATE());
 select IdPedido, IdMesa, IdMesero, Fecha, Activo from Pedidos
 
+select * from Articulos_X_Pedido
 
 create table Articulos_X_Pedido(
 IdPedido int Foreign key references Pedidos(IdPedido),
 IdArticulo int not null references Articulo (IdArticulo),
+Mesa int not null references Mesa(IdMesa),
 Mesero int not null FOREIGN key references Usuarios(Id),
 Activo int not null default 1,
 Precio money not null
@@ -77,7 +79,7 @@ insert into Articulos_X_Pedido values (2, 5, 15, 1, 800)
 
 DELETE FROM Pedidos;
 DELETE FROM Articulos_X_Pedido;
-
+drop table Articulos_X_Pedido
 
 
 ---INSERTS
@@ -137,8 +139,7 @@ select * from Mesero
 select * from Mesa
 select * from Pedidos
 
-DELETE FROM Mesa
-WHERE IdMesa= 9;
+
 
 
 
@@ -159,3 +160,37 @@ select P.IdPedido as IdPedido, P.IdMesero  as Mesero from Pedidos P
 inner join Mesero as M on M.IdMesero = P.IdMesero
 inner Join Usuarios as U on U.Id = M.IdUsuario
 Where P.IdMesero = @IdMesero
+
+
+
+create Procedure PedidoXMesa
+@IdMesa int 
+as
+select IdPedido, IdMesa from Pedidos 
+Where idMesa = @IdMesa
+
+CREATE PROCEDURE EnviarPedidos
+    @IdPedido INT
+AS
+UPDATE Articulos_X_Pedido
+SET Activo = 0
+WHERE IdPedido = @IdPedido;
+
+UPDATE Pedidos
+set Activo = 0
+where IdPedido = @IdPedido;
+
+
+
+------------------------
+
+
+CREATE PROCEDURE insertArtiXPedi
+    @IdPedido INT,
+    @IdArticulo INT,
+    @IdUsuM INT,
+    @Precio MONEY,
+	@IdMesa int
+AS
+  INSERT INTO Articulos_X_Pedido (IdPedido, IdArticulo,Mesa, Mesero, Precio)
+        VALUES (@IdPedido, @IdArticulo, @IdMesa , @IdUsuM, @Precio);

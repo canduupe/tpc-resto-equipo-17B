@@ -39,16 +39,12 @@ namespace tpc_resto_equipo_17B
                 int IdArti = int.Parse(dgvCartita.SelectedDataKey["IdArticulo"].ToString());
                 float Preci = float.Parse(dgvCartita.SelectedDataKey["Precio"].ToString());
                 int mese = int.Parse(Session["Meser"].ToString());
-<<<<<<< HEAD
                 int IdPedido = 3; //int.Parse(Request.QueryString["IdPedido"].ToString());
-=======
-                int IdPedido = 4; //int.Parse(Request.QueryString["IdPedido"].ToString());
->>>>>>> ff54afe1a62ba204776db522484dca4036149409
-                
+                int mesa = 1;
 
 
                 PedidosNegocio negocio = new PedidosNegocio();
-                negocio.AgregarConSp(IdArti, mese, IdPedido, Preci);
+                negocio.AgregarConSp(IdArti, mese, IdPedido, mesa, Preci);
             }
             catch (Exception ex)
             {

@@ -36,20 +36,7 @@ namespace tpc_resto_equipo_17B
 
         protected void BtnCerrarPedido_Click(object sender, EventArgs e)
         {
-            OrdenNegocio negocio = new OrdenNegocio();
-            try
-            {
-                negocio.EnviarPedido(4);
-                Response.Redirect("Exitoso.aspx", false );
-
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-
-
+           
             OrdenNegocio negocio = new OrdenNegocio();
             try
             {

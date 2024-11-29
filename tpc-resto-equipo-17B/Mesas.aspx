@@ -20,6 +20,11 @@
 </div>
     <hr />
 <div>
-     <asp:Button ID="btnAgregarMesa" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarMesa_Click" Text="Agregar mesa"/>
+    <asp:Button ID="btnAgregarMesa" runat="server" class="btn btn-outline-dark" OnClick="btnAgregarMesa_Click" Text="Agregar mesa"/>
+         
+ 
 </div>
+    <div>       
+        <asp:Button ID="btnListarPXM" runat="server" class="btn btn-outline-dark"  OnClick="btnListarPXM_Click" Text="Agregar mesa"/>
+    </div>
 </asp:Content>

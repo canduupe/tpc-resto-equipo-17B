@@ -56,5 +56,10 @@ namespace tpc_resto_equipo_17B
                 Session.Add("ERROR", ex.ToString());
             }
         }
+
+        protected void btnListarPXM_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("PedidosXMesa.aspx", false);
+        }
     }
 }

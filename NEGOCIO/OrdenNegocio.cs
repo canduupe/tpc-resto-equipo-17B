@@ -13,7 +13,7 @@ namespace NEGOCIO
         {
             List<Ordenes> lista = new List<Ordenes>();
             AccesoDatos datos = new AccesoDatos();
-           
+
             try
             {
                 datos.setearConsulta("select IdPedido, IdArticulo, Mesero, Activo, Precio from Articulos_X_Pedido where Activo = 1");
@@ -79,30 +79,7 @@ namespace NEGOCIO
         public void EnviarPedido(int pedido)
         {
             AccesoDatos datos = new AccesoDatos();
-<<<<<<< HEAD
-=======
-            
-            try
-            {
-                datos.setearProcedimiento("EnviarPedidos");
-                datos.setearParametro("@IdPedido", pedido);
 
-                datos.realizarLectura();
-
-
-
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-            finally { datos.cerrarConexion();}
-
-
-
-        }
->>>>>>> ff54afe1a62ba204776db522484dca4036149409
 
             try
             {
@@ -124,9 +101,7 @@ namespace NEGOCIO
 
 
         }
-
-
-
-
     }
 }
+
+         

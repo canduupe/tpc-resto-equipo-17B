@@ -59,17 +59,18 @@ namespace NEGOCIO
         }
 
 
-        public void AgregarConSp(int art, int mese, int Ped, float pre)
+        public void AgregarConSp(int art, int mese, int Ped, int mesa, float pre)
         {
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.setearProcedimiento("InsertarArticulosXPedido");
+                datos.setearProcedimiento("insertArtiXPedi");
                 datos.setearParametro("@IdPedido", Ped);
                 datos.setearParametro("@IdArticulo", art);
                 datos.setearParametro("@IdUsuM", mese);
                 datos.setearParametro("@Precio", pre);
+                datos.setearParametro("@IdMesa", mesa);
 
                 datos.realizarAccion();
 
@@ -175,6 +176,39 @@ namespace NEGOCIO
 
         }
 
+
+        public List<Pedidos> PxMesa(int idMesa)
+        {
+            AccesoDatos datos = new AccesoDatos();   
+            List<Pedidos> mesa  = new List<Pedidos>();
+            try
+            {
+                datos.setearProcedimiento("PedidoXMesa");
+                datos.setearParametro("@IdMesa", idMesa);
+
+                datos.realizarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Pedidos Aux = new Pedidos();
+                    Aux.IdPedido = (int)datos.Lector["IdPedido"];
+                    Aux.IdMesa = (int)datos.Lector["idMesa"];
+
+                    mesa.Add(Aux);  
+                }
+                    
+                return mesa;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+
+
+        }
       
 
     }

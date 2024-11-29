@@ -18,6 +18,7 @@ namespace tpc_resto_equipo_17B
             if (!Helper.EsGerente(Session["Usuario"]))
             {
                 btnListar.Visible = false;
+               
             }
         }
 
@@ -35,5 +36,7 @@ namespace tpc_resto_equipo_17B
         {
             Response.Redirect("MesasMeseros.aspx", false);
         }
+
+        
     }
 }

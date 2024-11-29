@@ -136,8 +136,10 @@
     <Content Include="MesasMeseros.aspx" />
     <Content Include="Meseros.aspx" />
     <Content Include="Orden.aspx" />
+    <Content Include="PedidosXMesa.aspx" />
     <Content Include="PedidosXMesero.aspx" />
     <Content Include="PxM.aspx" />
+    <Content Include="PxMesa.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -325,6 +327,13 @@
     <Compile Include="Orden.aspx.designer.cs">
       <DependentUpon>Orden.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PedidosXMesa.aspx.cs">
+      <DependentUpon>PedidosXMesa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PedidosXMesa.aspx.designer.cs">
+      <DependentUpon>PedidosXMesa.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PedidosXMesero.aspx.cs">
       <DependentUpon>PedidosXMesero.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -339,6 +348,13 @@
     </Compile>
     <Compile Include="PxM.aspx.designer.cs">
       <DependentUpon>PxM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PxMesa.aspx.cs">
+      <DependentUpon>PxMesa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PxMesa.aspx.designer.cs">
+      <DependentUpon>PxMesa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
