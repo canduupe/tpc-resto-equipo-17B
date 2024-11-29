@@ -76,6 +76,30 @@ namespace NEGOCIO
 
         }
 
+        public void EnviarPedido(int pedido)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            
+            try
+            {
+                datos.setearProcedimiento("EnviarPedidos");
+                datos.setearParametro("@IdPedido", pedido);
+
+                datos.realizarLectura();
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally { datos.cerrarConexion();}
+
+
+
+        }
 
 
 
