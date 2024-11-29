@@ -126,6 +126,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Error.aspx" />
+    <Content Include="Exitoso.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="ListaMeseros.aspx" />
@@ -135,6 +136,8 @@
     <Content Include="MesasMeseros.aspx" />
     <Content Include="Meseros.aspx" />
     <Content Include="Orden.aspx" />
+    <Content Include="PedidosXMesero.aspx" />
+    <Content Include="PxM.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -263,6 +266,13 @@
     <Compile Include="Error.aspx.designer.cs">
       <DependentUpon>Error.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Exitoso.aspx.cs">
+      <DependentUpon>Exitoso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Exitoso.aspx.designer.cs">
+      <DependentUpon>Exitoso.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -315,7 +325,21 @@
     <Compile Include="Orden.aspx.designer.cs">
       <DependentUpon>Orden.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PedidosXMesero.aspx.cs">
+      <DependentUpon>PedidosXMesero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PedidosXMesero.aspx.designer.cs">
+      <DependentUpon>PedidosXMesero.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PxM.aspx.cs">
+      <DependentUpon>PxM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PxM.aspx.designer.cs">
+      <DependentUpon>PxM.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -17,7 +17,7 @@ namespace NEGOCIO
 
             try
             {
-                datos.setearConsulta("select IdPedido, IdMesa, IdArticulo, Fecha, Mesero, Activo from Pedidos");
+                datos.setearConsulta("select IdPedido, IdMesa, IdArticulo, Fecha, IdMesero, Activo from Pedidos");
                 datos.realizarLectura();
 
                 while (datos.Lector.Read())
@@ -26,7 +26,7 @@ namespace NEGOCIO
                     pedidos.IdPedido = (int)datos.Lector["IdPedido"];
                     pedidos.IdMesa = (int)datos.Lector["IdMesa"];
                     pedidos.IdArticulo = (int)datos.Lector["IdArticulo"];
-                    pedidos.Mesero = (int)datos.Lector["Mesero"];
+                    pedidos.Mesero = (int)datos.Lector["IdMesero"];
                     pedidos.Activo = (int)datos.Lector["Activo"];
                     pedidos.FechaPedido = (DateTime)datos.Lector["Fecha"];
 
@@ -49,7 +49,8 @@ namespace NEGOCIO
 
             try
             {
-                datos.setearConsulta("insert into Pedidos values (1,GETDATE())");
+                datos.setearConsulta("INSERT INTO Pedidos (IdMesa, IdMesero, Fecha) VALUES (1, 7, GETDATE())");
+
             }
             catch (Exception ex)
             {
@@ -137,6 +138,41 @@ namespace NEGOCIO
             {
                 datos.cerrarConexion();
             }
+        }
+
+
+
+
+        public List<Pedidos> PxM(int idMese)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            List<Pedidos> filtro = new List<Pedidos>(); 
+            try
+            {
+                datos.setearProcedimiento("PedidosXMese");
+                datos.setearParametro("@IdMesero", idMese);
+                datos.realizarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Pedidos Aux = new Pedidos();
+
+                    Aux.IdPedido = (int)datos.Lector["IdPedido"];
+                    Aux.Mesero = (int)datos.Lector["Mesero"];
+
+
+                    filtro.Add(Aux);
+                }
+
+                return filtro;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
         }
 
       

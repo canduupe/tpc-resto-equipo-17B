@@ -23,12 +23,12 @@ namespace tpc_resto_equipo_17B
 
         protected void btnListar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("ListaMeseros.aspx", false);
+            Response.Redirect("PedidosXMesero.aspx", false);
         }
 
         protected void btnPedidos_Click(object sender, EventArgs e)
         {
-            Response.Redirect("TomarPedido.aspx", false);
+           Response.Redirect("TomarPedido.aspx", false);
         }
 
         protected void btnMesasAsig_Click(object sender, EventArgs e)
