@@ -2,12 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
 
-    <asp:GridView runat="server"  ID="dgvPxMesA"   class="table "  AutoGenerateColumns="false">   
+    <asp:GridView runat="server"  ID="dgvPxMesA"   class="table"  AutoGenerateColumns="false">   
 
         <Columns>
             <asp:BoundField  HeaderText="IdPedido" Datafield="IdPedido" />
-            <asp:BoundField  HeaderText="NumeroMesa" Datafield="Mesa" />
-
+            <asp:BoundField  HeaderText="IdMesa" Datafield="IdMesa" />
         </Columns>
 
 

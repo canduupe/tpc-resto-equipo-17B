@@ -25,6 +25,6 @@
  
 </div>
     <div>       
-        <asp:Button ID="btnListarPXM" runat="server" class="btn btn-outline-dark"  OnClick="btnListarPXM_Click" Text="Agregar mesa"/>
+        <asp:Button ID="btnListarPXM" runat="server" class="btn btn-outline-dark"  OnClick="btnListarPXM_Click" Text="Listar Mesa"/>
     </div>
 </asp:Content>
