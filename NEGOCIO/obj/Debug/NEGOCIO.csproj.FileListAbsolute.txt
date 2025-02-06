@@ -61,3 +61,12 @@ C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (24)\tpc-resto-equipo-17B\NEGOC
 C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (24)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.Up2Date
 C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (24)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.dll
 C:\Users\joaqu\OneDrive\Escritorio\Nueva carpeta (24)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.pdb
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\NEGOCIO.dll
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\NEGOCIO.pdb
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\DOMINIO.dll
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\bin\Debug\DOMINIO.pdb
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.AssemblyReference.cache
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.CoreCompileInputs.cache
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.csproj.Up2Date
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.dll
+C:\Users\Tecser SA\Desktop\Nueva carpeta (4)\tpc-resto-equipo-17B\NEGOCIO\obj\Debug\NEGOCIO.pdb

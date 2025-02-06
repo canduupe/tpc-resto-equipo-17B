@@ -1,121 +1,125 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\",
+  "WorkspaceRootPath": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|c:\\users\\joaqu\\onedrive\\escritorio\\nueva carpeta (23)\\tpc-resto-equipo-17b\\dominio\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|solutionrelative:dominio\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\dominio\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|solutionrelative:dominio\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\joaqu\\onedrive\\escritorio\\nueva carpeta (23)\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\meseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\meseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\meseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\meseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\negocio\\ordennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\ordennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\exitoso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\exitoso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\negocio\\pedidosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\pedidosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesero.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesero.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\tomarpedido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\tomarpedido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\orden.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\orden.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\tomarpedido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\tomarpedido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\orden.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\orden.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\exitoso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\exitoso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\abmmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\abmmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\abmmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\tecser sa\\desktop\\nueva carpeta (4)\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\abmmeseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\abmmeseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|c:\\users\\tecser sa\\desktop\\nueva carpeta (4)\\tpc-resto-equipo-17b\\tpc-resto-equipo-17b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\dominio\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|solutionrelative:dominio\\pedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\dominio\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75C4C6D6-3833-4482-9556-35D7BBBE8A50}|DOMINIO\\DOMINIO.csproj|solutionrelative:dominio\\mesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesa.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesa.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesas.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\meseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\meseros.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\meseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\meseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\negocio\\ordennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\ordennegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\exitoso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\exitoso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\negocio\\pedidosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\pedidosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxm.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pxm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pxm.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesero.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesero.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\pedidosxmesero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\pedidosxmesero.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\tomarpedido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\tomarpedido.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\orden.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\orden.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\tomarpedido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\tomarpedido.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\orden.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\orden.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\exitoso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\exitoso.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD3F46E9-3E85-4027-B7CF-06CE7004EF0B}|NEGOCIO\\NEGOCIO.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\mesasmeseros.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\articulos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17b\\articulos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20C3726C-3D0A-4D5F-A7EF-2857771D9BC7}|tpc-resto-equipo-17B\\tpc-resto-equipo-17B.csproj|solutionrelative:tpc-resto-equipo-17b\\articulos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -126,28 +130,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 27,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Pedidos.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\DOMINIO\\Pedidos.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\Pedidos.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\DOMINIO\\Pedidos.cs",
-              "RelativeToolTip": "DOMINIO\\Pedidos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:51:15.796Z",
+              "DocumentIndex": 1,
+              "Title": "ABMMeseros.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\ABMMeseros.aspx",
+              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\ABMMeseros.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\ABMMeseros.aspx",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\ABMMeseros.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-06T18:47:48.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "Pedidos.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\DOMINIO\\Pedidos.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\Pedidos.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\DOMINIO\\Pedidos.cs",
+              "RelativeToolTip": "DOMINIO\\Pedidos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T21:51:15.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Site.Master",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Site.Master",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Site.Master",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Site.Master",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Site.Master",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -156,102 +172,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Mesas.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Mesas.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Mesas.aspx.cs",
               "ViewState": "AgIAACQAAAAAAAAAAADgvzoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:08:12.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T21:08:12.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Mesas.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Mesas.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Mesas.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Mesas.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-29T21:07:00.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PxMesa.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx.cs",
-              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PxMesa.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx.cs",
-              "RelativeToolTip": "tpc-resto-equipo-17B\\PxMesa.aspx.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:23:12.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PxMesa.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx",
-              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PxMesa.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx*",
-              "RelativeToolTip": "tpc-resto-equipo-17B\\PxMesa.aspx*",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-29T20:07:11.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mesa.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\DOMINIO\\Mesa.cs",
-              "RelativeDocumentMoniker": "DOMINIO\\Mesa.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\DOMINIO\\Mesa.cs",
-              "RelativeToolTip": "DOMINIO\\Mesa.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T19:58:29.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T21:07:00.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PedidosXMesa.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
-              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
-              "RelativeToolTip": "tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBYAAAAJAAAAAAAAAA==",
+              "Title": "PxMesa.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx.cs",
+              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PxMesa.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx.cs",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\PxMesa.aspx.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T20:01:50.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T20:23:12.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PxMesa.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx",
+              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PxMesa.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxMesa.aspx",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\PxMesa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T20:07:11.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PedidosXMesa.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx",
-              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PedidosXMesa.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx",
-              "RelativeToolTip": "tpc-resto-equipo-17B\\PedidosXMesa.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-29T19:54:07.206Z",
-              "EditorCaption": ""
+              "Title": "Mesa.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\DOMINIO\\Mesa.cs",
+              "RelativeDocumentMoniker": "DOMINIO\\Mesa.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\DOMINIO\\Mesa.cs",
+              "RelativeToolTip": "DOMINIO\\Mesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T19:58:29.4Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
+              "Title": "PedidosXMesa.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
+              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\PedidosXMesa.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:01:50.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidosXMesa.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx",
+              "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PedidosXMesa.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesa.aspx",
+              "RelativeToolTip": "tpc-resto-equipo-17B\\PedidosXMesa.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-29T19:54:07.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "PedidosXMesero.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PedidosXMesero.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\PedidosXMesero.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -259,11 +268,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "PedidosXMesero.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PedidosXMesero.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PedidosXMesero.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\PedidosXMesero.aspx.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAADwvxsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TomarPedido.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\TomarPedido.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\TomarPedido.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -283,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "PxM.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PxM.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\PxM.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -295,11 +304,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PxM.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\PxM.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\PxM.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\PxM.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,11 +316,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "PedidosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\NEGOCIO\\PedidosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\NEGOCIO\\PedidosNegocio.cs",
               "RelativeDocumentMoniker": "NEGOCIO\\PedidosNegocio.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\NEGOCIO\\PedidosNegocio.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\NEGOCIO\\PedidosNegocio.cs",
               "RelativeToolTip": "NEGOCIO\\PedidosNegocio.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAAQwMcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -319,11 +328,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "TomarPedido.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\TomarPedido.aspx.cs",
               "ViewState": "AgIAABEAAAAAAAAAAADgvyoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Meseros.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Meseros.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Meseros.aspx.cs",
               "ViewState": "AgIAABsAAAAAAAAAAADgvycAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,11 +352,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Orden.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Orden.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Orden.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -355,11 +364,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Orden.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Orden.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Orden.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Orden.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -367,11 +376,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Default.aspx.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -379,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Meseros.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Meseros.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Meseros.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Meseros.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -391,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Exitoso.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Exitoso.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Exitoso.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -403,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Exitoso.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Exitoso.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Exitoso.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Exitoso.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\NEGOCIO\\ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\NEGOCIO\\ArticuloNegocio.cs",
               "RelativeDocumentMoniker": "NEGOCIO\\ArticuloNegocio.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\NEGOCIO\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\NEGOCIO\\ArticuloNegocio.cs",
               "RelativeToolTip": "NEGOCIO\\ArticuloNegocio.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAQwF4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,11 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "OrdenNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\NEGOCIO\\OrdenNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\NEGOCIO\\OrdenNegocio.cs",
               "RelativeDocumentMoniker": "NEGOCIO\\OrdenNegocio.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\NEGOCIO\\OrdenNegocio.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\NEGOCIO\\OrdenNegocio.cs",
               "RelativeToolTip": "NEGOCIO\\OrdenNegocio.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAwwGgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -439,11 +448,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Default.aspx",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Default.aspx",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -452,23 +461,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 0,
               "Title": "ABMMeseros.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\ABMMeseros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\ABMMeseros.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\ABMMeseros.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\ABMMeseros.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\ABMMeseros.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\ABMMeseros.aspx.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:35:52.776Z"
+              "WhenOpened": "2024-11-27T18:35:52.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "MesasMeseros.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\MesasMeseros.aspx.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAASwCQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -476,11 +486,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Articulos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Articulos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Articulos.aspx.cs",
               "RelativeDocumentMoniker": "tpc-resto-equipo-17B\\Articulos.aspx.cs",
-              "ToolTip": "C:\\Users\\joaqu\\OneDrive\\Escritorio\\Nueva carpeta (23)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Articulos.aspx.cs",
+              "ToolTip": "C:\\Users\\Tecser SA\\Desktop\\Nueva carpeta (4)\\tpc-resto-equipo-17B\\tpc-resto-equipo-17B\\Articulos.aspx.cs",
               "RelativeToolTip": "tpc-resto-equipo-17B\\Articulos.aspx.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
